@@ -1,32 +1,87 @@
-# Project Name
+# KubeStellar Console Knowledge Base
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Part of Console Ecosystem](https://img.shields.io/badge/KubeStellar-Console%20Ecosystem-blue)](https://github.com/kubestellar/console)
 
-Short description of this project.
+Community knowledge base for [KubeStellar Console](https://github.com/kubestellar/console) AI missions — share, discover, and import proven solutions to save tokens and time.
 
 ## Overview
 
-Describe what this project does and its purpose within the KubeStellar ecosystem.
+Console KB is the community hub for sharing AI mission solutions created in the KubeStellar Console. When you solve a complex Kubernetes problem using the Console's AI-powered missions, you can export and publish your solution here so others can:
+
+- **Import** proven solutions directly into their Console
+- **Discover** community-tested approaches to common challenges
+- **Save tokens** by reusing solutions instead of re-prompting AI
+- **Learn** from real-world multi-cluster Kubernetes patterns
+
+## How It Works
+
+```
+┌─────────────────────┐     Export      ┌─────────────────────┐
+│  KubeStellar        │ ──────────────▶ │  Console KB         │
+│  Console            │                 │  (This Repo)        │
+│                     │ ◀────────────── │                     │
+│  AI Missions        │     Import      │  Community Solutions │
+└─────────────────────┘                 └─────────────────────┘
+```
+
+### Solution Format
+
+Each solution is a self-contained package that includes:
+
+- **Mission definition** — the AI prompt and parameters
+- **Expected outcomes** — what the mission produces
+- **Prerequisites** — required cluster setup, CRDs, or tools
+- **Tags** — categories for discovery (e.g., `multi-cluster`, `security`, `networking`)
+- **Compatibility** — Console version and tested Kubernetes versions
 
 ## Getting Started
 
-### Prerequisites
+### Browse Solutions
 
-- List prerequisites here
+Explore the [`solutions/`](solutions/) directory to find community-contributed AI mission solutions organized by category.
 
-### Installation
+### Import a Solution
 
-```bash
-# Installation commands here
-```
+1. Copy the solution YAML from this repository
+2. In KubeStellar Console, go to **AI Missions → Import**
+3. Paste or upload the solution file
+4. The mission is ready to run in your environment
 
-## Usage
+### Share Your Solution
 
-Describe how to use this project.
+1. Create a successful AI mission in KubeStellar Console
+2. Export it via **AI Missions → Export**
+3. Fork this repo and add your solution to the appropriate category under `solutions/`
+4. Submit a PR with a description of what the mission solves
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed submission guidelines.
+
+## Solution Categories
+
+| Category | Description |
+|----------|-------------|
+| `multi-cluster/` | Cross-cluster deployment, federation, and sync patterns |
+| `security/` | RBAC, network policies, secret management across clusters |
+| `networking/` | Service mesh, ingress, DNS, and connectivity solutions |
+| `observability/` | Monitoring, logging, and alerting across clusters |
+| `workloads/` | Application deployment strategies and patterns |
+| `troubleshooting/` | Diagnostic missions for common Kubernetes issues |
+| `cost-optimization/` | Resource right-sizing and cluster efficiency |
+
+## Part of the Console Ecosystem
+
+| Repository | Description |
+|------------|-------------|
+| [kubestellar/console](https://github.com/kubestellar/console) | AI-powered multi-cluster Kubernetes dashboard |
+| [kubestellar/console-marketplace](https://github.com/kubestellar/console-marketplace) | Community dashboards, card presets, and themes |
+| **kubestellar/console-kb** (this repo) | AI mission knowledge base — share and discover solutions |
 
 ## Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+We welcome contributions! Whether you're sharing a solution that saved you hours of debugging or improving an existing one, every contribution helps the community.
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on submitting solutions.
 
 ## License
 
@@ -36,3 +91,4 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 - [Slack Channel](https://cloud-native.slack.com/archives/C097094RZ3M)
 - [Website](https://kubestellar.io)
+- [Console Documentation](https://github.com/kubestellar/console#readme)
