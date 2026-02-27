@@ -27,11 +27,16 @@ export class RedditSource extends BaseSource {
     const sinceDate = computeSinceDate(sourceState, this.searchWindow)
     const projectSubs = project.sources?.reddit?.subreddits || this.subreddits
     const items = []
+    // Search for project name and aliases
+    const searchTerms = [project.name, ...(project.aliases || [])]
 
     for (const subreddit of projectSubs) {
       if (items.length >= this.maxPerProject) break
 
-      const url = `${REDDIT_BASE}/r/${subreddit}/search.json?q=${encodeURIComponent(project.name)}&sort=top&t=year&restrict_sr=1&limit=25`
+      for (const term of searchTerms) {
+        if (items.length >= this.maxPerProject) break
+
+        const url = `${REDDIT_BASE}/r/${subreddit}/search.json?q=${encodeURIComponent(term)}&sort=top&t=year&restrict_sr=1&limit=25`
 
       try {
         await this.throttle()
@@ -75,6 +80,7 @@ export class RedditSource extends BaseSource {
       } catch (err) {
         console.warn(`  Reddit: Error searching r/${subreddit}: ${err.message}`)
       }
+      } // end searchTerms loop
     }
 
     return { items }
@@ -103,7 +109,7 @@ export class RedditSource extends BaseSource {
     const resourceKinds = extractResourceKinds(allText)
     const difficulty = body.length > 1000 ? 'advanced' : 'intermediate'
 
-    return buildMission({
+    return await buildMission({
       title: `${project.name}: ${cleanTitle(title)}`,
       description: problem,
       problem,
