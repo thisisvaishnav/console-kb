@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-04T20:42:44.328Z",
-  "count": 396,
+  "generatedAt": "2026-03-05T19:00:13.487Z",
+  "count": 397,
   "missions": [
     {
       "path": "solutions/cncf-generated/alertmanager/alertmanager-3944-feat-allow-nested-details-fields-in-pagerduty.json",
@@ -5804,6 +5804,42 @@
       ],
       "type": "deploy",
       "installMethods": [
+        "helm"
+      ]
+    },
+    {
+      "path": "solutions/platform-install/install-kagenti.json",
+      "title": "Install and Configure Kagenti on Kubernetes",
+      "description": "Kagenti is a Kubernetes-based control plane for AI agents. It provides a framework-neutral, scalable, and secure platform for deploying and orchestrating AI agents through standardized agent communica",
+      "category": "platform-install",
+      "missionClass": "install",
+      "author": "Andy Anderson",
+      "authorGithub": "clubanderson",
+      "authorAvatar": "https://github.com/clubanderson.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "ai-agents",
+        "mcp",
+        "a2a",
+        "agentic-ai",
+        "platform"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service",
+        "Namespace",
+        "CustomResourceDefinition"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "ansible",
         "helm"
       ]
     },
