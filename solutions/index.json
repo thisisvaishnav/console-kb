@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-05T21:50:22.754Z",
+  "generatedAt": "2026-03-05T23:22:14.816Z",
   "count": 397,
   "missions": [
     {
@@ -2817,7 +2817,7 @@
     {
       "path": "solutions/cncf-install/install-aeraki-mesh.json",
       "title": "Install and Configure Aeraki Mesh on Kubernetes",
-      "description": "Aeraki is a service mesh that allows you to manage any layer-7 protocols, providing advanced traffic management capabilities for microservices. Installing Aeraki enables you to enhance your service me",
+      "description": "Aeraki is a service mesh that allows you to manage any layer-7 protocols, enhancing the capabilities of microservices. Installing Aeraki enables you to handle diverse traffic types beyond just HTTP, m",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -2837,14 +2837,14 @@
         "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "1.4.1",
       "maturity": "sandbox",
@@ -2853,7 +2853,7 @@
     {
       "path": "solutions/cncf-install/install-akri.json",
       "title": "Install and Configure Akri on Kubernetes",
-      "description": "Akri is a Kubernetes Resource Interface for the Edge that allows you to expose heterogeneous leaf devices as resources in a Kubernetes cluster. Installing Akri enables you to utilize devices like IP c",
+      "description": "Akri is a Kubernetes Resource Interface for the Edge that allows you to expose heterogeneous leaf devices as resources in a Kubernetes cluster. This is particularly useful for edge computing scenarios",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -2871,9 +2871,7 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
-        "Namespace",
-        "Serviceaccount"
+        "Namespace"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -2963,7 +2961,7 @@
     {
       "path": "solutions/cncf-install/install-antrea.json",
       "title": "Install and Configure Antrea on Kubernetes",
-      "description": "Antrea is a Kubernetes networking solution that provides networking and security services for Kubernetes clusters using Open vSwitch. Installing Antrea allows you to implement efficient Pod networking",
+      "description": "Antrea is a Kubernetes networking solution based on Open vSwitch, providing efficient networking and security services for Kubernetes clusters. Installing Antrea allows you to implement Kubernetes Net",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -2983,7 +2981,7 @@
         "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -3190,7 +3188,7 @@
     {
       "path": "solutions/cncf-install/install-armada.json",
       "title": "Install and Configure Armada on Kubernetes",
-      "description": "Armada is a multi-cluster batch queuing system designed for high-throughput workloads on Kubernetes. Installing Armada allows you to efficiently manage and schedule jobs across multiple Kubernetes clu",
+      "description": "Armada is a multi-cluster batch queuing system designed for high-throughput workloads on Kubernetes. It enables efficient scheduling and management of jobs across multiple clusters, making it ideal fo",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3208,7 +3206,6 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -3220,14 +3217,14 @@
       "installMethods": [
         "helm"
       ],
-      "projectVersion": "v0.20.34",
+      "projectVersion": "v0.20.36",
       "maturity": "sandbox",
       "qualityScore": 100
     },
     {
       "path": "solutions/cncf-install/install-artifact-hub.json",
       "title": "Install and Configure Artifact Hub on Kubernetes",
-      "description": "Artifact Hub is a web-based application that enables finding, installing, and publishing Cloud Native packages. Installing it allows you to easily discover and manage various artifacts for your CNCF p",
+      "description": "Artifact Hub is a web-based application that enables finding, installing, and publishing Cloud Native packages. You would install it to streamline the discovery and management of various artifacts use",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3244,10 +3241,9 @@
         "artifact-hub"
       ],
       "targetResourceKinds": [
-        "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -3332,7 +3328,7 @@
     {
       "path": "solutions/cncf-install/install-backstage.json",
       "title": "Install and Configure Backstage on Kubernetes",
-      "description": "Backstage is an open framework for building developer portals, providing a centralized software catalog that helps teams manage their microservices and infrastructure effectively. Installing Backstage",
+      "description": "Backstage is an open framework for building developer portals that helps organizations manage their software catalog and streamline development processes. Installing Backstage allows teams to unify th",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3350,19 +3346,18 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
-      "projectVersion": "v1.48.3",
+      "projectVersion": "v1.48.4",
       "maturity": "incubating",
       "qualityScore": 100
     },
@@ -3398,7 +3393,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.32.1",
       "maturity": "sandbox",
@@ -3407,7 +3402,7 @@
     {
       "path": "solutions/cncf-install/install-bfe.json",
       "title": "Install and Configure Bfe on Kubernetes",
-      "description": "BFE (Beyond Front End) is a modern layer 7 load balancer developed by Baidu, designed to manage and route traffic efficiently. Installing BFE allows you to leverage its capabilities for advanced traff",
+      "description": "BFE is a modern layer 7 load balancer from Baidu, designed for efficient traffic management and routing. Installing BFE allows you to leverage its capabilities for load balancing and traffic managemen",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3425,7 +3420,6 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -3435,7 +3429,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.8.1",
       "maturity": "sandbox",
@@ -3444,7 +3438,7 @@
     {
       "path": "solutions/cncf-install/install-bootc.json",
       "title": "Install and Configure Bootc on Kubernetes",
-      "description": "Bootc is a tool designed for transactional, in-place operating system updates using OCI/Docker container images. Installing Bootc allows you to manage and upgrade your operating system seamlessly usin",
+      "description": "Bootc is a tool for transactional, in-place operating system updates using OCI/Docker container images. Installing Bootc allows you to manage and upgrade your operating system seamlessly using contain",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3462,10 +3456,9 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -3481,7 +3474,7 @@
     {
       "path": "solutions/cncf-install/install-bpfman.json",
       "title": "Install and Configure Bpfman on Kubernetes",
-      "description": "bpfman is an eBPF Manager designed to simplify the deployment and administration of eBPF programs in Kubernetes environments. Installing bpfman allows you to efficiently manage eBPF programs, providin",
+      "description": "bpfman is an eBPF Manager designed to simplify the deployment and management of eBPF programs in Kubernetes environments. Installing bpfman allows you to gain insights into eBPF utilization and manage",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3502,14 +3495,14 @@
         "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.5.6",
       "maturity": "sandbox",
@@ -3518,7 +3511,7 @@
     {
       "path": "solutions/cncf-install/install-cadence-workflow.json",
       "title": "Install and Configure Cadence Workflow on Kubernetes",
-      "description": "Cadence is a distributed, scalable, durable, and highly available orchestration engine designed to execute asynchronous long-running business logic. Installing Cadence allows you to build and run scal",
+      "description": "Cadence is a distributed, scalable, durable, and highly available orchestration engine designed to execute asynchronous long-running business logic in a resilient manner. Installing Cadence allows you",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3536,7 +3529,6 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -3546,7 +3538,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.4.0",
       "maturity": "sandbox",
@@ -3555,7 +3547,7 @@
     {
       "path": "solutions/cncf-install/install-capsule.json",
       "title": "Install and Configure Capsule on Kubernetes",
-      "description": "Capsule is a multi-tenancy and policy-based framework for Kubernetes that simplifies the management of multiple namespaces within a single cluster. By using Capsule, you can efficiently group namespac",
+      "description": "Capsule is a multi-tenancy and policy-based framework for Kubernetes, designed to simplify the management of multiple namespaces within a single cluster. By using Capsule, you can efficiently manage r",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3572,8 +3564,7 @@
         "capsule"
       ],
       "targetResourceKinds": [
-        "Namespace",
-        "Clusterrole"
+        "Namespace"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -3591,7 +3582,7 @@
     {
       "path": "solutions/cncf-install/install-carina.json",
       "title": "Install and Configure Carina on Kubernetes",
-      "description": "Carina is a high-performance, ops-free local storage solution for Kubernetes, designed specifically for cloud-native databases. Installing Carina allows you to leverage its capabilities for efficient ",
+      "description": "Carina is a high-performance, ops-free local storage solution for Kubernetes, designed to simplify storage management for cloud-native databases. Installing Carina allows you to leverage Kubernetes-na",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3610,7 +3601,7 @@
       "targetResourceKinds": [
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -3626,7 +3617,7 @@
     {
       "path": "solutions/cncf-install/install-cartography.json",
       "title": "Install and Configure Cartography on Kubernetes",
-      "description": "Cartography is a Python tool that consolidates infrastructure assets and their relationships in an intuitive graph view powered by a Neo4j database. Installing Cartography allows you to explore and au",
+      "description": "Cartography is a Python tool that consolidates infrastructure assets and their relationships in an intuitive graph view powered by a Neo4j database. Installing Cartography allows you to visualize and ",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3647,16 +3638,16 @@
         "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
-      "projectVersion": "0.130.0",
+      "projectVersion": "0.132.0",
       "maturity": "sandbox",
       "qualityScore": 100
     },
@@ -3690,7 +3681,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.53.2",
       "maturity": "sandbox",
@@ -3734,7 +3725,7 @@
     {
       "path": "solutions/cncf-install/install-cedar.json",
       "title": "Install and Configure Cedar on Kubernetes",
-      "description": "Cedar is a language for writing and enforcing authorization policies in your applications. By installing Cedar, you can leverage its expressive and performant capabilities to manage fine-grained permi",
+      "description": "Cedar is a language for writing and enforcing authorization policies in applications. It allows you to specify fine-grained permissions, enabling your applications to authorize access requests efficie",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3753,17 +3744,16 @@
       "targetResourceKinds": [
         "Deployment",
         "Service",
-        "Namespace",
-        "Serviceaccount"
+        "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v4.9.1",
       "maturity": "sandbox",
@@ -3846,7 +3836,7 @@
     {
       "path": "solutions/cncf-install/install-chaosblade.json",
       "title": "Install and Configure Chaosblade on Kubernetes",
-      "description": "ChaosBlade is a powerful chaos engineering toolkit that helps improve the fault tolerance of distributed systems through various experimental scenarios. Installing it allows you to conduct chaos exper",
+      "description": "ChaosBlade is an easy-to-use and powerful chaos engineering experiment toolkit that helps enterprises improve the fault tolerance of distributed systems. You would install it to conduct chaos experime",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -3875,7 +3865,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.8.0",
       "maturity": "sandbox",
@@ -4023,7 +4013,7 @@
     {
       "path": "solutions/cncf-install/install-clusternet.json",
       "title": "Install and Configure Clusternet on Kubernetes",
-      "description": "Clusternet is a CNCF Sandbox project that simplifies the management of multiple Kubernetes clusters, whether they are on public clouds, private clouds, or edge environments. By installing Clusternet, ",
+      "description": "Clusternet is a CNCF Sandbox project that simplifies the management of multiple Kubernetes clusters, regardless of their deployment environment. By using Clusternet, you can manage public, private, an",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4043,7 +4033,7 @@
         "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -4059,7 +4049,7 @@
     {
       "path": "solutions/cncf-install/install-clusterpedia.json",
       "title": "Install and Configure Clusterpedia on Kubernetes",
-      "description": "Clusterpedia is an encyclopedia of Kubernetes clusters that allows you to synchronize, search for, and control multi-cluster resources effectively. Installing Clusterpedia enables you to manage your K",
+      "description": "Clusterpedia is an encyclopedia of Kubernetes clusters that allows for synchronization, searching, and management of multi-cluster resources. Installing Clusterpedia enables efficient control and visi",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4079,7 +4069,7 @@
         "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -4123,7 +4113,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.0.8",
       "maturity": "sandbox",
@@ -4132,7 +4122,7 @@
     {
       "path": "solutions/cncf-install/install-confidential-containers.json",
       "title": "Install and Configure Confidential Containers on Kubernetes",
-      "description": "Confidential Containers is an open-source community project that leverages Trusted Execution Environments (TEEs) to enhance the security of containers and protect sensitive data in cloud-native applic",
+      "description": "Confidential Containers is an open-source community focused on leveraging Trusted Execution Environments (TEEs) to enhance the security of containers and data, enabling cloud-native confidential compu",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4150,9 +4140,7 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
-        "Namespace",
-        "Serviceaccount"
+        "Namespace"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -4161,7 +4149,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.17.0",
       "maturity": "sandbox",
@@ -4170,7 +4158,7 @@
     {
       "path": "solutions/cncf-install/install-connect-rpc.json",
       "title": "Install and Configure Connect Rpc on Kubernetes",
-      "description": "Connect is a slim library for building browser and gRPC-compatible HTTP APIs using Protocol Buffers. Installing Connect allows you to easily create type-safe clients and servers that support multiple ",
+      "description": "Connect is a slim library for building browser and gRPC-compatible HTTP APIs using Protocol Buffers. You would install it to create efficient APIs that work seamlessly across different platforms and p",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4198,7 +4186,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.19.1",
       "maturity": "sandbox",
@@ -4236,7 +4224,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.3.0",
       "maturity": "incubating",
@@ -4272,7 +4260,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.8.3",
       "maturity": "sandbox",
@@ -4281,7 +4269,7 @@
     {
       "path": "solutions/cncf-install/install-containerd.json",
       "title": "Install and Configure Containerd on Kubernetes",
-      "description": "containerd is an industry-standard container runtime that manages the complete lifecycle of containers on a host system. Installing containerd allows you to run and manage containers efficiently in yo",
+      "description": "containerd is an industry-standard container runtime designed for simplicity, robustness, and portability. It manages the complete container lifecycle, making it essential for running containers effic",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4300,7 +4288,8 @@
       "targetResourceKinds": [
         "Deployment",
         "Service",
-        "Namespace"
+        "Namespace",
+        "Serviceaccount"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -4346,7 +4335,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.5.2",
       "maturity": "sandbox",
@@ -4355,7 +4344,7 @@
     {
       "path": "solutions/cncf-install/install-continuous-optimization.json",
       "title": "Install and Configure Continuous Optimization on Kubernetes",
-      "description": "Kraken is a chaos and resiliency testing tool for Kubernetes that helps improve performance under failure conditions. Installing Kraken allows you to simulate failures in your Kubernetes cluster to en",
+      "description": "Krkn is a chaos and resiliency testing tool for Kubernetes that helps improve performance under failure conditions. By injecting deliberate failures into your Kubernetes clusters, it allows you to ass",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4374,8 +4363,7 @@
       "targetResourceKinds": [
         "Deployment",
         "Service",
-        "Namespace",
-        "Serviceaccount"
+        "Namespace"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -4384,7 +4372,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v5.0.0",
       "maturity": "sandbox",
@@ -4393,7 +4381,7 @@
     {
       "path": "solutions/cncf-install/install-contour.json",
       "title": "Install and Configure Contour on Kubernetes",
-      "description": "Contour is a Kubernetes ingress controller that uses the Envoy proxy to manage incoming traffic to your applications. Installing Contour allows you to leverage advanced routing capabilities and dynami",
+      "description": "Contour is a Kubernetes ingress controller that leverages the Envoy proxy to provide advanced routing capabilities. Installing Contour allows you to manage ingress traffic to your applications with en",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4413,7 +4401,7 @@
         "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -4456,7 +4444,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.13.0",
       "maturity": "sandbox",
@@ -4502,7 +4490,7 @@
     {
       "path": "solutions/cncf-install/install-cortex.json",
       "title": "Install and Configure Cortex on Kubernetes",
-      "description": "Cortex is a horizontally scalable, highly available, multi-tenant long-term storage solution for Prometheus and OpenTelemetry Metrics. Installing Cortex allows you to efficiently manage and store metr",
+      "description": "Cortex is a horizontally scalable, highly available, multi-tenant long-term storage solution for Prometheus and OpenTelemetry Metrics. Installing Cortex allows you to efficiently manage and store your",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4539,7 +4527,7 @@
     {
       "path": "solutions/cncf-install/install-cubefs.json",
       "title": "Install and Configure Cubefs on Kubernetes",
-      "description": "CubeFS is an open-source cloud-native distributed file and object storage system designed for scalability and performance. Installing CubeFS allows you to leverage a robust storage solution for your K",
+      "description": "CubeFS is an open-source cloud-native distributed file and object storage system that provides scalable and reliable storage solutions. Installing CubeFS allows you to leverage its capabilities for ma",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4576,7 +4564,7 @@
     {
       "path": "solutions/cncf-install/install-dalec.json",
       "title": "Install and Configure Dalec on Kubernetes",
-      "description": "Dalec is a project aimed at providing a declarative format for building system packages and containers with a focus on supply chain security. Installing Dalec allows you to produce secure packages and",
+      "description": "Dalec is a project aimed at providing a declarative format for building system packages and containers with a focus on supply chain security. You would install it to produce secure packages and contai",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4593,18 +4581,16 @@
         "dalec"
       ],
       "targetResourceKinds": [
-        "Deployment",
-        "Service",
-        "Namespace"
+        "Deployment"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "docker"
       ],
       "projectVersion": "v0.20.3",
       "maturity": "sandbox",
@@ -4630,10 +4616,10 @@
         "dapr"
       ],
       "targetResourceKinds": [
-        "Service",
+        "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -4649,7 +4635,7 @@
     {
       "path": "solutions/cncf-install/install-devfile.json",
       "title": "Install and Configure Devfile on Kubernetes",
-      "description": "Devfile is a Kube-native API for defining cloud development workspaces. Installing it allows you to manage development environments in Kubernetes using a standardized specification, enhancing producti",
+      "description": "Devfile is a Kube-native API for cloud development workspaces specification, enabling developers to define and manage development environments in Kubernetes. Installing Devfile allows you to leverage ",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4666,10 +4652,7 @@
         "devfile"
       ],
       "targetResourceKinds": [
-        "Deployment",
-        "Service",
-        "Namespace",
-        "Serviceaccount"
+        "Deployment"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -4678,7 +4661,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v2.3.0",
       "maturity": "sandbox",
@@ -4793,7 +4776,7 @@
     {
       "path": "solutions/cncf-install/install-distribution.json",
       "title": "Install and Configure Distribution on Kubernetes",
-      "description": "The Distribution project provides a toolkit to pack, ship, store, and deliver container content, including a robust implementation of the OCI Distribution Specification for container registries. Insta",
+      "description": "The Distribution project provides a toolkit to pack, ship, store, and deliver container content. Installing it allows you to set up a private container registry that adheres to the OCI Distribution Sp",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4811,7 +4794,6 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -4863,7 +4845,7 @@
     {
       "path": "solutions/cncf-install/install-dragonfly.json",
       "title": "Install and Configure Dragonfly on Kubernetes",
-      "description": "Dragonfly is a cloud-native project that provides efficient, stable, and secure data distribution and acceleration using P2P technology. Installing Dragonfly allows you to improve the delivery of file",
+      "description": "Dragonfly is a cloud-native solution that provides efficient, stable, and secure data distribution and acceleration powered by P2P technology. It's particularly useful for improving the delivery of la",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4881,9 +4863,10 @@
       ],
       "targetResourceKinds": [
         "Deployment",
+        "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -4899,7 +4882,7 @@
     {
       "path": "solutions/cncf-install/install-drasi.json",
       "title": "Install and Configure Drasi on Kubernetes",
-      "description": "Drasi is a data processing platform that simplifies detecting changes in data and taking immediate action. Installing Drasi allows you to monitor system logs and change feeds for specific events, enab",
+      "description": "Drasi is a data processing platform that simplifies detecting changes in data and taking immediate action. It provides real-time actionable insights without the overhead of traditional data processing",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -4917,17 +4900,16 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "latest",
       "maturity": "sandbox",
@@ -5029,7 +5011,7 @@
         "Namespace",
         "Ingress"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -5045,7 +5027,7 @@
     {
       "path": "solutions/cncf-install/install-envoy.json",
       "title": "Install and Configure Envoy on Kubernetes",
-      "description": "Envoy is a cloud-native high-performance edge, middle, and service proxy that helps manage communication between microservices. Installing Envoy allows you to leverage its advanced features for load b",
+      "description": "Envoy is a cloud-native high-performance edge/middle/service proxy that helps manage microservices traffic efficiently. Installing Envoy allows you to leverage its advanced features for load balancing",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -5066,7 +5048,7 @@
         "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -5117,7 +5099,7 @@
     {
       "path": "solutions/cncf-install/install-external-secrets.json",
       "title": "Install and Configure External Secrets on Kubernetes",
-      "description": "External Secrets Operator reads information from third-party services like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets. Installing this operator allows you to manage",
+      "description": "The External Secrets Operator reads information from third-party secret management services and automatically injects the values as Kubernetes Secrets. This allows for secure management of sensitive d",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -5134,11 +5116,8 @@
         "external-secrets"
       ],
       "targetResourceKinds": [
-        "Deployment",
-        "Service",
         "Secret",
-        "Namespace",
-        "Serviceaccount"
+        "Namespace"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -5304,7 +5283,7 @@
     {
       "path": "solutions/cncf-install/install-fluent-bit.json",
       "title": "Install and Configure Fluent Bit (Fluentd) on Kubernetes",
-      "description": "Fluent Bit is a lightweight and high-performance telemetry agent designed to collect, process, and forward logs, metrics, and traces from any source to any destination. Installing Fluent Bit allows yo",
+      "description": "Fluent Bit is a fast and lightweight telemetry agent designed to collect, process, and forward logs, metrics, and traces from any source to any destination. Installing Fluent Bit allows you to efficie",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -5323,10 +5302,11 @@
         "fluent-bit"
       ],
       "targetResourceKinds": [
+        "Deployment",
         "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -5378,7 +5358,7 @@
     {
       "path": "solutions/cncf-install/install-fluid.json",
       "title": "Install and Configure Fluid on Kubernetes",
-      "description": "Fluid is an open source Kubernetes-native Distributed Dataset Orchestrator and Accelerator designed for data-intensive applications, such as big data and AI applications. Installing Fluid allows you t",
+      "description": "Fluid is an open-source Kubernetes-native Distributed Dataset Orchestrator and Accelerator designed for data-intensive applications such as big data and AI. Installing Fluid allows you to efficiently ",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -5395,6 +5375,7 @@
         "fluid"
       ],
       "targetResourceKinds": [
+        "Deployment",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -5498,10 +5479,9 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -5517,7 +5497,7 @@
     {
       "path": "solutions/cncf-install/install-hami.json",
       "title": "Install and Configure Hami on Kubernetes",
-      "description": "HAMi is a Heterogeneous AI Computing Virtualization Middleware that allows Kubernetes users to manage various types of heterogeneous devices like GPUs and NPUs. Installing HAMi enables better scheduli",
+      "description": "HAMi is a Heterogeneous AI Computing Virtualization Middleware that allows for efficient management of diverse computing resources like GPUs and NPUs in Kubernetes. Installing HAMi enables better sche",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -5663,7 +5643,7 @@
     {
       "path": "solutions/cncf-install/install-holmesgpt.json",
       "title": "Install and Configure Holmesgpt on Kubernetes",
-      "description": "HolmesGPT is an open-source AI agent designed for investigating production incidents and identifying root causes. As a CNCF Sandbox project, it integrates with various observability tools to enhance i",
+      "description": "HolmesGPT is an open-source AI agent designed for investigating production incidents and finding root causes. As a CNCF Sandbox project, it integrates with various observability tools and cloud platfo",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -5681,9 +5661,10 @@
       ],
       "targetResourceKinds": [
         "Deployment",
+        "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -5726,7 +5707,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.0.2",
       "maturity": "sandbox",
@@ -5763,7 +5744,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.12.0",
       "maturity": "sandbox",
@@ -5834,7 +5815,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.6.2",
       "maturity": "sandbox",
@@ -5942,7 +5923,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "0.6.0",
       "maturity": "sandbox",
@@ -6229,7 +6210,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.7.19",
       "maturity": "sandbox",
@@ -6305,7 +6286,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v4.0.0",
       "maturity": "sandbox",
@@ -6342,7 +6323,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.17.0",
       "maturity": "incubating",
@@ -6501,7 +6482,7 @@
     {
       "path": "solutions/cncf-install/install-keycloak.json",
       "title": "Install and Configure Keycloak on Kubernetes",
-      "description": "Keycloak is an open-source Identity and Access Management solution that allows you to add authentication to applications and secure services with minimal effort. Installing Keycloak will enable you to",
+      "description": "Keycloak is an open-source identity and access management solution that enables you to add authentication to applications and secure services with minimal effort. Installing Keycloak allows you to man",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -6518,9 +6499,11 @@
         "keycloak"
       ],
       "targetResourceKinds": [
+        "Deployment",
+        "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -6529,7 +6512,7 @@
       "installMethods": [
         "helm"
       ],
-      "projectVersion": "26.5.4",
+      "projectVersion": "26.5.5",
       "maturity": "incubating",
       "qualityScore": 100
     },
@@ -6564,7 +6547,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v7.14.1",
       "maturity": "sandbox",
@@ -6600,7 +6583,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v2.2.1",
       "maturity": "sandbox",
@@ -6670,7 +6653,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.11.0",
       "maturity": "sandbox",
@@ -6707,7 +6690,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.2.0",
       "maturity": "sandbox",
@@ -6716,7 +6699,7 @@
     {
       "path": "solutions/cncf-install/install-knative-eventing.json",
       "title": "Install and Configure Knative Eventing (Knative) on Kubernetes",
-      "description": "Knative Eventing is an event-driven application platform for Kubernetes that enables secure event processing and discovery using CloudEvents. Installing Knative Eventing allows you to build and manage",
+      "description": "Knative Eventing is an event-driven application platform for Kubernetes that enables secure event processing and discovery using CloudEvents. You would install it to build applications that respond to",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -6735,7 +6718,6 @@
         "knative-eventing"
       ],
       "targetResourceKinds": [
-        "Configmap",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -6754,7 +6736,7 @@
     {
       "path": "solutions/cncf-install/install-knative.json",
       "title": "Install and Configure Knative on Kubernetes",
-      "description": "Knative Serving is a Kubernetes-based framework that enables the deployment and serving of applications and functions as serverless containers. It allows for rapid deployment, automatic scaling, and a",
+      "description": "Knative Serving is a Kubernetes-based platform that enables the deployment and serving of applications and functions as serverless containers. It allows for rapid deployment, automatic scaling, and ad",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -6772,7 +6754,6 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Configmap",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -6856,7 +6837,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.0.0-beta.61",
       "maturity": "sandbox",
@@ -6883,7 +6864,6 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -6966,7 +6946,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.0.1",
       "maturity": "sandbox",
@@ -7112,7 +7092,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.32.4",
       "maturity": "sandbox",
@@ -7189,7 +7169,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.4.1",
       "maturity": "sandbox",
@@ -7198,7 +7178,7 @@
     {
       "path": "solutions/cncf-install/install-kubeedge.json",
       "title": "Install and Configure Kubeedge on Kubernetes",
-      "description": "KubeEdge is a Kubernetes Native Edge Computing Framework that extends container orchestration and device management to edge hosts. Installing KubeEdge allows you to efficiently manage edge application",
+      "description": "KubeEdge is a Kubernetes Native Edge Computing Framework that extends container orchestration and device management capabilities to edge hosts. By installing KubeEdge, you can manage edge applications",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -7262,7 +7242,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.1.21",
       "maturity": "sandbox",
@@ -7302,7 +7282,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.2.2",
       "maturity": "sandbox",
@@ -7311,7 +7291,7 @@
     {
       "path": "solutions/cncf-install/install-kubeflow.json",
       "title": "Install and Configure Kubeflow on Kubernetes",
-      "description": "Kubeflow is a powerful machine learning toolkit for Kubernetes that provides a comprehensive set of tools for building and deploying AI applications. Installing Kubeflow enables you to leverage its mo",
+      "description": "Kubeflow is a powerful Machine Learning Toolkit for Kubernetes that provides a modular and scalable platform for building AI applications. Installing Kubeflow allows you to leverage a comprehensive se",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -7328,6 +7308,7 @@
         "kubeflow"
       ],
       "targetResourceKinds": [
+        "Service",
         "Namespace",
         "Ingress"
       ],
@@ -7374,7 +7355,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v2.7.1",
       "maturity": "sandbox",
@@ -7383,7 +7364,7 @@
     {
       "path": "solutions/cncf-install/install-kubescape.json",
       "title": "Install and Configure Kubescape on Kubernetes",
-      "description": "Kubescape is an open-source Kubernetes security platform that provides comprehensive security coverage, including risk analysis, compliance, and misconfiguration scanning for your Kubernetes clusters.",
+      "description": "Kubescape is an open-source Kubernetes security platform that provides comprehensive security coverage across the entire development and deployment lifecycle. You would install it to enhance the secur",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -7401,10 +7382,9 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -7455,7 +7435,7 @@
     {
       "path": "solutions/cncf-install/install-kubevela.json",
       "title": "Install and Configure Kubevela on Kubernetes",
-      "description": "KubeVela is a modern application delivery platform that simplifies deploying and managing applications across hybrid and multi-cloud environments. By using KubeVela, you can enhance your application d",
+      "description": "KubeVela is a modern application delivery platform that simplifies deploying and operating applications across hybrid and multi-cloud environments. Installing KubeVela allows you to manage your applic",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -7473,11 +7453,9 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
-        "Namespace",
-        "Serviceaccount"
+        "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -7493,7 +7471,7 @@
     {
       "path": "solutions/cncf-install/install-kubevirt.json",
       "title": "Install and Configure Kubevirt on Kubernetes",
-      "description": "KubeVirt is a virtual machine management add-on for Kubernetes that allows you to define and manage virtual machines alongside other Kubernetes resources. Installing KubeVirt enables you to leverage K",
+      "description": "KubeVirt is a virtual machine management add-on for Kubernetes that allows you to define and manage virtual machines using Kubernetes' Custom Resource Definitions. Installing KubeVirt enables you to r",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -7820,7 +7798,7 @@
     {
       "path": "solutions/cncf-install/install-linkerd-viz.json",
       "title": "Install and Configure Linkerd Viz (Linkerd) on Kubernetes",
-      "description": "Linkerd Viz is a powerful observability tool for the Linkerd service mesh, providing insights into the performance and health of your microservices. Installing Linkerd Viz allows you to visualize serv",
+      "description": "Linkerd-viz is a visualization component of the Linkerd service mesh, providing observability features for your microservices. Installing Linkerd-viz allows you to gain insights into the performance a",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -7839,10 +7817,10 @@
         "linkerd-viz"
       ],
       "targetResourceKinds": [
-        "Service",
+        "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -7891,7 +7869,7 @@
     {
       "path": "solutions/cncf-install/install-litmus.json",
       "title": "Install and Configure Litmus on Kubernetes",
-      "description": "Litmus is an open-source Chaos Engineering platform that enables teams to identify weaknesses and potential outages in infrastructures by inducing chaos tests in a controlled manner. Installing Litmus",
+      "description": "Litmus is an open-source Chaos Engineering platform that allows SREs and developers to identify weaknesses and potential outages in their infrastructure by inducing chaos tests in a controlled manner.",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -7911,7 +7889,7 @@
         "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -7955,7 +7933,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "6.4.0",
       "maturity": "sandbox",
@@ -8103,7 +8081,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.12.2",
       "maturity": "incubating",
@@ -8345,7 +8323,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.7.6",
       "maturity": "sandbox",
@@ -8452,7 +8430,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.16.0",
       "maturity": "sandbox",
@@ -8528,7 +8506,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.3.2",
       "maturity": "incubating",
@@ -8640,7 +8618,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.14.0",
       "maturity": "graduated",
@@ -8721,7 +8699,7 @@
     {
       "path": "solutions/cncf-install/install-openfga.json",
       "title": "Install and Configure Openfga on Kubernetes",
-      "description": "OpenFGA is a high-performance and flexible authorization/permission engine built for developers, inspired by Google Zanzibar. Installing OpenFGA allows you to manage and enforce fine-grained access co",
+      "description": "OpenFGA is a high-performance and flexible authorization/permission engine built for developers, inspired by Google Zanzibar. Installing OpenFGA allows you to manage fine-grained access control for yo",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -8739,10 +8717,9 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -8821,7 +8798,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.5.2",
       "maturity": "sandbox",
@@ -8830,7 +8807,7 @@
     {
       "path": "solutions/cncf-install/install-openkruise.json",
       "title": "Install and Configure Openkruise on Kubernetes",
-      "description": "OpenKruise is a CNCF incubating project that automates the management of large-scale applications on Kubernetes. It provides advanced workload management capabilities, making it easier to handle state",
+      "description": "OpenKruise is an incubating CNCF project that automates the management of large-scale applications on Kubernetes. It provides advanced workload controllers that enhance Kubernetes' native capabilities",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -8850,7 +8827,7 @@
         "Deployment",
         "Namespace"
       ],
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "issueTypes": [
         "installation",
         "configuration"
@@ -9044,7 +9021,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.6.1",
       "maturity": "incubating",
@@ -9053,7 +9030,7 @@
     {
       "path": "solutions/cncf-install/install-operator-framework.json",
       "title": "Install and Configure Operator Framework on Kubernetes",
-      "description": "The Operator SDK is a framework for building Kubernetes applications, known as Operators, which simplifies the development process by providing high-level APIs and project scaffolding. Installing the ",
+      "description": "The Operator SDK is a toolkit for building Kubernetes applications, known as Operators, which simplifies the process of managing complex stateful applications on Kubernetes. By using high-level APIs a",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -9071,9 +9048,7 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
-        "Namespace",
-        "Serviceaccount"
+        "Namespace"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -9152,7 +9127,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.3.0",
       "maturity": "sandbox",
@@ -9189,7 +9164,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v3.12.0",
       "maturity": "sandbox",
@@ -9224,7 +9199,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.2.0",
       "maturity": "sandbox",
@@ -9261,7 +9236,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.15.3",
       "maturity": "sandbox",
@@ -9442,7 +9417,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v2.10.4",
       "maturity": "sandbox",
@@ -9937,7 +9912,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v3.16.5",
       "maturity": "sandbox",
@@ -9974,7 +9949,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "0.3.0",
       "maturity": "sandbox",
@@ -10011,7 +9986,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v2.1.14",
       "maturity": "sandbox",
@@ -10048,7 +10023,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v2.3.0",
       "maturity": "sandbox",
@@ -10085,7 +10060,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "0.61.14",
       "maturity": "sandbox",
@@ -10122,7 +10097,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "1.40.11",
       "maturity": "sandbox",
@@ -10167,7 +10142,7 @@
     {
       "path": "solutions/cncf-install/install-spiffe.json",
       "title": "Install and Configure Spiffe on Kubernetes",
-      "description": "The SPIFFE Project provides a framework for securely identifying and authenticating services in a microservices architecture. Installing SPIFFE allows you to implement secure service-to-service commun",
+      "description": "The SPIFFE Project provides a framework for securely identifying and communicating between application services. Installing SPIFFE allows you to implement a robust identity management system for your ",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -10184,7 +10159,7 @@
         "spiffe"
       ],
       "targetResourceKinds": [
-        "Configmap",
+        "Deployment",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -10230,7 +10205,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.6.1",
       "maturity": "sandbox",
@@ -10239,7 +10214,7 @@
     {
       "path": "solutions/cncf-install/install-spire.json",
       "title": "Install and Configure Spire on Kubernetes",
-      "description": "SPIRE (the SPIFFE Runtime Environment) is a tool for managing the identities of workloads in a distributed system. Installing SPIRE allows you to secure your microservices with strong identity and aut",
+      "description": "SPIRE (the SPIFFE Runtime Environment) provides a set of APIs and services to manage identities in a cloud-native environment. Installing SPIRE allows you to secure your workloads by providing them wi",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -10256,7 +10231,6 @@
         "spire"
       ],
       "targetResourceKinds": [
-        "Deployment",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -10268,7 +10242,7 @@
       "installMethods": [
         "helm"
       ],
-      "projectVersion": "v1.14.1",
+      "projectVersion": "v1.14.2",
       "maturity": "graduated",
       "qualityScore": 100
     },
@@ -10303,7 +10277,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.1.6",
       "maturity": "sandbox",
@@ -10407,7 +10381,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.22.1",
       "maturity": "sandbox",
@@ -10554,7 +10528,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v0.13.0-rc.33",
       "maturity": "sandbox",
@@ -10733,7 +10707,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.12.0",
       "maturity": "sandbox",
@@ -10742,7 +10716,7 @@
     {
       "path": "solutions/cncf-install/install-vitess.json",
       "title": "Install and Configure Vitess on Kubernetes",
-      "description": "Vitess is a cloud-native horizontally-scalable distributed database system built around MySQL, enabling unlimited scaling through generalized sharding. Installing Vitess allows you to manage large-sca",
+      "description": "Vitess is a cloud-native horizontally-scalable distributed database system built around MySQL, enabling unlimited scaling through generalized sharding. You would install it to manage large-scale datab",
       "category": "cncf-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -10770,7 +10744,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v23.0.3",
       "maturity": "graduated",
@@ -10829,7 +10803,7 @@
         "volcano"
       ],
       "targetResourceKinds": [
-        "Configmap",
+        "Deployment",
         "Namespace"
       ],
       "difficulty": "intermediate",
@@ -10909,7 +10883,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "v1.9.2",
       "maturity": "incubating",
@@ -10946,7 +10920,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "projectVersion": "0.16.1",
       "maturity": "sandbox",
