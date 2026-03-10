@@ -1,8 +1,66 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T05:30:23.358Z",
-  "count": 252,
+  "generatedAt": "2026-03-10T05:34:01.933Z",
+  "count": 272,
   "missions": [
+    {
+      "path": "solutions/cncf-generated/argo/argo-7875-delete-namespaces-created-by-createnamespace-true-sync-option-when-app.json",
+      "title": "argo: Delete namespaces created by \"CreateNamespace=true\" sync option when application is deleted",
+      "description": "Delete namespaces created by \"CreateNamespace=true\" sync option when application is deleted. This issue affects 367+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo/argo-2789-helm-chart-values-files-from-git.json",
+      "title": "argo: Helm chart + values files from Git",
+      "description": "Helm chart + values files from Git. This issue affects 434+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo",
+        "graduated",
+        "app-definition",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "argo"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
     {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-4821-allow-ingressclassname-to-be-set-for-http01-solver-ingresses.json",
       "title": "cert-manager: Allow `ingressClassName` to be set for HTTP01 solver ingresses.",
@@ -113,6 +171,289 @@
         "Namespace"
       ],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cilium/cilium-20655-cfp-add-support-for-k8s-gateway-api.json",
+      "title": "cilium: CFP: Add support for k8s Gateway API",
+      "description": "CFP: Add support for k8s Gateway API. This issue affects 61+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Service",
+        "Ingress",
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cilium/cilium-19038-k8sservicehost-multiple-ips-hosts.json",
+      "title": "cilium: k8sServiceHost multiple IPs/Hosts",
+      "description": "k8sServiceHost multiple IPs/Hosts. This issue affects 36+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Node"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/envoy/envoy-9958-tracing-transition-to-opentelemetry-from-opentracing-and-opencensus.json",
+      "title": "envoy: tracing: Transition to OpenTelemetry from OpenTracing and OpenCensus",
+      "description": "tracing: Transition to OpenTelemetry from OpenTracing and OpenCensus. This issue affects 94+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/envoy/envoy-492-udp-proxying-support.json",
+      "title": "envoy: UDP proxying support",
+      "description": "UDP proxying support. This issue affects 39+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/etcd/etcd-11563-clientv3-grpc-go-v1-27-0-made-api-changes-to-balancer-resolver.json",
+      "title": "etcd: clientv3: grpc-go (v1.27.0) made API changes to balancer / resolver.",
+      "description": "clientv3: grpc-go (v1.27.0) made API changes to balancer / resolver.. Users encounter: \"occurred while pulling etcd / clientv3. The steps to reproduce it are as follows:\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/etcd/etcd-11650-is-there-a-plan-to-update-google-golang-org-grpc.json",
+      "title": "etcd: Is there a plan to update google.golang.org/grpc?",
+      "description": "Is there a plan to update google.golang.org/grpc?. This issue affects 42+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/harbor/harbor-10496-feature-request-provide-a-ui-to-visualize-container-vulnerabilities.json",
+      "title": "harbor: [Feature Request] Provide a UI to visualize container vulnerabilities",
+      "description": "[Feature Request] Provide a UI to visualize container vulnerabilities. This issue affects 34+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "harbor",
+        "graduated",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "harbor"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/harbor/harbor-13223-support-for-redis-tls.json",
+      "title": "harbor: Support for Redis TLS",
+      "description": "Support for Redis TLS. This issue affects 38+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "harbor",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "harbor"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-3555-add-helm-install-app-version-command-versioning-a-chart-against-an-app.json",
+      "title": "helm: Add 'helm install --app-version' command/versioning a chart against an app version",
+      "description": "Add 'helm install --app-version' command/versioning a chart against an app version. This issue affects 184+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/helm/helm-1193-upgrade-failed-no-resource-with-the-name-found.json",
+      "title": "helm: UPGRADE FAILED: No resource with the name \"\" found",
+      "description": "UPGRADE FAILED: No resource with the name \"\" found. This issue affects 124+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [
+        "Configmap",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
       "issueTypes": [
         "troubleshoot"
       ],
@@ -8999,6 +9340,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/istio/istio-22463-istio-sidecar-injection-failing-with-error-mountvolume-setup-failed-.json",
+      "title": "istio: Istio sidecar injection failing with error - MountVolume.SetUp failed for volume \"istiod-ca-cert\" : configmap \"istio-ca-root-cert\" not found",
+      "description": "Istio sidecar injection failing with error - MountVolume.SetUp failed for volume \"istiod-ca-cert\" : configmap \"istio-ca-root-cert\" not found. This issue affects 37+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Configmap",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/istio/istio-22290-regex-rewrites-using-capture-groups.json",
       "title": "istio: Regex rewrites using capture groups",
       "description": "Regex rewrites using capture groups. This issue affects 131+ users.",
@@ -9020,6 +9392,97 @@
         "Ingress"
       ],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/istio/istio-16585-support-regex-for-servicerole-spec-rules-paths.json",
+      "title": "istio: Support regex for ServiceRole spec.rules.paths",
+      "description": "Support regex for ServiceRole spec.rules.paths. This issue affects 63+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Service",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-944-provide-support-for-explicitly-pausing-autoscaling-of-workloads.json",
+      "title": "keda: Provide support for explicitly pausing autoscaling of workloads.",
+      "description": "Provide support for explicitly pausing autoscaling of workloads.. This issue affects 36+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-2513-rabbitmq-scaler-allow-providing-separate-paremeters-for-user-and-passw.json",
+      "title": "keda: Rabbitmq scaler: Allow providing separate paremeters for user and password ",
+      "description": "Rabbitmq scaler: Allow providing separate paremeters for user and password . This issue affects 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Secret"
+      ],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -9056,6 +9519,121 @@
       "installMethods": [],
       "maturity": "community",
       "qualityScore": 69
+    },
+    {
+      "path": "solutions/cncf-generated/linkerd/linkerd-10762-can-t-deploy-linkerd-v2-13-x-with-argocd.json",
+      "title": "linkerd: Can't deploy Linkerd v2.13.x with ArgoCD",
+      "description": "Can't deploy Linkerd v2.13.x with ArgoCD. This issue affects 26+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/linkerd/linkerd-4582-multicluster-doesn-t-work-on-eks.json",
+      "title": "linkerd: multicluster doesn't work on EKS",
+      "description": "multicluster doesn't work on EKS. Users encounter: \"```msg=\"Error processing RemoteGatewayCreated: {gatewaySpec: GatewaySpec: {gatewayName: linkerd-gate\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "linkerd",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "linkerd"
+      ],
+      "targetResourceKinds": [
+        "Service",
+        "Ingress",
+        "Serviceaccount"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/prometheus/prometheus-535-add-mechanism-to-perform-bulk-imports.json",
+      "title": "prometheus: Add mechanism to perform bulk imports",
+      "description": "Add mechanism to perform bulk imports. This issue affects 127+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/prometheus/prometheus-8543-load-scrape-configs-from-multiple-files.json",
+      "title": "prometheus: Load scrape configs from multiple files",
+      "description": "Load scrape configs from multiple files. This issue affects 70+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/llm-d/install-llmd-benchmark.json",
