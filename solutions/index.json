@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T05:28:19.979Z",
-  "count": 250,
+  "generatedAt": "2026-03-10T05:30:23.358Z",
+  "count": 252,
   "missions": [
     {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-4821-allow-ingressclassname-to-be-set-for-http01-solver-ingresses.json",
@@ -34,6 +34,35 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-843-allowing-alternative-secret-output-formats-e-g-single-pem-file-.json",
+      "title": "cert-manager: Allowing alternative Secret output formats (e.g. single .pem file priv/cert output)",
+      "description": "Allowing alternative Secret output formats (e.g. single .pem file priv/cert output). This issue affects 39+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-7540-cloudflare-dns-challenge-broken.json",
       "title": "cert-manager: Cloudflare - DNS Challenge Broken",
       "description": "Cloudflare - DNS Challenge Broken. This issue affects 79+ users.",
@@ -52,6 +81,37 @@
         "cert-manager"
       ],
       "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-7138-failed-to-generate-serving-certificate.json",
+      "title": "cert-manager: Failed to generate serving certificate",
+      "description": "Failed to generate serving certificate. Users encounter: \"in the logs of cert-manager webhook pod:\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Secret",
+        "Namespace"
+      ],
       "difficulty": "intermediate",
       "issueTypes": [
         "troubleshoot"
