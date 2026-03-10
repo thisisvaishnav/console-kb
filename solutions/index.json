@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T23:37:05.961Z",
-  "count": 297,
+  "generatedAt": "2026-03-10T23:55:02.455Z",
+  "count": 302,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo/argo-4116-add-option-to-create-one-off-job-from-cron-job.json",
@@ -9848,6 +9848,36 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/istio/istio-56587-cni-repair-mode-not-working-in-1-26-1.json",
+      "title": "istio: CNI Repair mode not working in 1.26.1",
+      "description": "CNI Repair mode not working in 1.26.1. This issue affects 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/istio/istio-22463-istio-sidecar-injection-failing-with-error-mountvolume-setup-failed-.json",
       "title": "istio: Istio sidecar injection failing with error - MountVolume.SetUp failed for volume \"istiod-ca-cert\" : configmap \"istio-ca-root-cert\" not found",
       "description": "Istio sidecar injection failing with error - MountVolume.SetUp failed for volume \"istiod-ca-cert\" : configmap \"istio-ca-root-cert\" not found. This issue affects 37+ users.",
@@ -9875,6 +9905,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/istio/istio-10724-k8s-using-common-labels-with-namespace-app-kubernetes-io.json",
+      "title": "istio: K8s: Using common labels with namespace 'app.kubernetes.io' ",
+      "description": "K8s: Using common labels with namespace 'app.kubernetes.io' . Requested by 34+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -9908,6 +9965,39 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/istio/istio-46594-support-customization-for-kubernetes-gateway-api-automated-deploymen.json",
+      "title": "istio: Support customization for Kubernetes Gateway API automated deployments",
+      "description": "Support customization for Kubernetes Gateway API automated deployments. Requested by 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Ingress",
+        "Configmap",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/istio/istio-16585-support-regex-for-servicerole-spec-rules-paths.json",
       "title": "istio: Support regex for ServiceRole spec.rules.paths",
       "description": "Support regex for ServiceRole spec.rules.paths. This issue affects 63+ users.",
@@ -9935,6 +10025,65 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/istio/istio-12602-unable-to-drain-k8s-node-running-istio-components-with-pdb.json",
+      "title": "istio: unable to drain k8s node running Istio components with PDB",
+      "description": "unable to drain k8s node running Istio components with PDB. Requested by 27+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/istio/istio-13861-unable-to-remove-server-header.json",
+      "title": "istio: Unable to remove server header",
+      "description": "Unable to remove server header. Requested by 29+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "istio",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "istio"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
