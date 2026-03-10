@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T05:36:43.008Z",
-  "count": 272,
+  "generatedAt": "2026-03-10T19:12:44.688Z",
+  "count": 292,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo/argo-7875-delete-namespaces-created-by-createnamespace-true-sync-option-when-app.json",
@@ -60,6 +60,222 @@
       "type": "deploy",
       "installMethods": [],
       "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-7192-allow-global-dns-resolvers-directive.json",
+      "title": "caddy: Allow global DNS `resolvers` directive",
+      "description": "Allow global DNS `resolvers` directive. This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "feature"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-5086-http-3-support-in-reverse-proxy-module.json",
+      "title": "caddy: http/3 support in reverse_proxy module",
+      "description": "http/3 support in reverse_proxy module. This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "feature"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-3803-improve-performance-of-fastcgi-transport-and-clean-up-code.json",
+      "title": "caddy: Improve performance of FastCGI transport (and clean up code)",
+      "description": "Improve performance of FastCGI transport (and clean up code). This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "analyze"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "analyze"
+      ],
+      "type": "analyze",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-3390-metrics-monitoring-in-v2.json",
+      "title": "caddy: Metrics monitoring in v2",
+      "description": "Metrics monitoring in v2. This issue affects 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "feature"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-4644-prometheus-metrics-are-redundant-and-slow.json",
+      "title": "caddy: Prometheus metrics are redundant and slow",
+      "description": "Prometheus metrics are redundant and slow. This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-3266-strip-path-for-reverse-proxied-requests.json",
+      "title": "caddy: Strip path for reverse proxied requests",
+      "description": "Strip path for reverse proxied requests. This issue affects 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "feature"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-4221-support-encrypted-client-hello-formerly-known-as-esni.json",
+      "title": "caddy: Support Encrypted Client Hello (formerly known as ESNI)",
+      "description": "Support Encrypted Client Hello (formerly known as ESNI). This issue affects 59+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "feature"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-3784-support-per-host-prometheus-metrics.json",
+      "title": "caddy: Support per-host Prometheus metrics",
+      "description": "Support per-host Prometheus metrics. This issue affects 49+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "feature"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-4821-allow-ingressclassname-to-be-set-for-http01-solver-ingresses.json",
@@ -349,6 +565,36 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/external-secrets/external-secrets-2661-support-bitwarden-secrets-manager.json",
+      "title": "external-secrets: Support Bitwarden Secrets Manager",
+      "description": "Support Bitwarden Secrets Manager. This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "external-secrets",
+        "sandbox",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "external-secrets"
+      ],
+      "targetResourceKinds": [
+        "Service",
+        "Secret"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/harbor/harbor-10496-feature-request-provide-a-ui-to-visualize-container-vulnerabilities.json",
       "title": "harbor: [Feature Request] Provide a UI to visualize container vulnerabilities",
       "description": "[Feature Request] Provide a UI to visualize container vulnerabilities. This issue affects 34+ users.",
@@ -374,6 +620,119 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/harbor/harbor-12719-a-default-library-can-be-auto-appended-to-the-pull-path-when-proxyi.json",
+      "title": "harbor: A default `library` can be auto appended to the pull path when proxying cache dockerhub ",
+      "description": "A default `library` can be auto appended to the pull path when proxying cache dockerhub . This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "harbor",
+        "community",
+        "container-registry",
+        "feature"
+      ],
+      "cncfProjects": [
+        "harbor"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/harbor/harbor-12261-core-logs-error-failed-to-verify-token-oidc-malformed-jwt-square-go.json",
+      "title": "harbor: Core logs error \"failed to verify token: oidc: malformed jwt: square/go-jose: compact JWS format must have three parts\" after switch to S3 storage -- excessive warning messages.",
+      "description": "Core logs error \"failed to verify token: oidc: malformed jwt: square/go-jose: compact JWS format must have three parts\" after switch to S3 storage -- excessive warning messages.. Users encounter: \"for",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "harbor",
+        "community",
+        "container-registry",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "harbor"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Persistentvolumeclaim"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/harbor/harbor-20255-execution-sweep-job-queue-is-growing.json",
+      "title": "harbor: EXECUTION_SWEEP job queue is growing",
+      "description": "EXECUTION_SWEEP job queue is growing. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "harbor",
+        "community",
+        "container-registry",
+        "analyze"
+      ],
+      "cncfProjects": [
+        "harbor"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "analyze"
+      ],
+      "type": "analyze",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/harbor/harbor-20505-performance-improvement-proposal-for-queries-related-with-the-task-.json",
+      "title": "harbor: Performance Improvement Proposal for queries related with the Task Table",
+      "description": "Performance Improvement Proposal for queries related with the Task Table. This issue affects 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "harbor",
+        "community",
+        "container-registry",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "harbor"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/harbor/harbor-13223-support-for-redis-tls.json",
@@ -9491,6 +9850,114 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/kepler/kepler-743-lr-model-dyncomponentmodelweight.json",
+      "title": "kepler:  LR Model (DynComponentModelWeight):",
+      "description": " LR Model (DynComponentModelWeight):. Users encounter: \"model.go:87] Model Config CONTAINER_COMPONENTS: {UseEstimatorSidecar:false SelectedModel: SelectFilt\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kepler",
+        "sandbox",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kepler"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kepler/kepler-845-tracking-kepler-adopters.json",
+      "title": "kepler: [Tracking] Kepler Adopters",
+      "description": "[Tracking] Kepler Adopters. This issue affects 3+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kepler",
+        "sandbox",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kepler"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/kepler/kepler-724-provide-go-vet-and-gosec-in-github-action.json",
+      "title": "kepler: Provide go vet and gosec in Github action",
+      "description": "Provide go vet and gosec in Github action. This issue affects 0+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kepler",
+        "sandbox",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kepler"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/keylime/keylime-1167-ima-scalability-is-currently-limited.json",
+      "title": "keylime: IMA scalability is currently limited",
+      "description": "IMA scalability is currently limited. This issue affects 2+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keylime",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keylime"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/kuberay/kuberay-639-feat-update-raycluster-status-reason-field-with-pod-creation-error.json",
       "title": "kuberay: feat: update RayCluster `.status.reason` field with pod creation error",
       "description": "## Why are these changes needed?\n\nMakes RayCluster errors related to Pod creation easier more apparent to user.\n\n### example before if Pod can't be created due to ResourceQuota exceeded\n\n```\nkubectl g",
@@ -9519,6 +9986,33 @@
       "installMethods": [],
       "maturity": "community",
       "qualityScore": 69
+    },
+    {
+      "path": "solutions/cncf-generated/kubestellar/kubestellar-3677-bump-peter-evans-repository-dispatch-from-3-0-0-to-4-0-1.json",
+      "title": "kubestellar: bump peter-evans/repository-dispatch from 3.0.0 to 4.0.1",
+      "description": "bump peter-evans/repository-dispatch from 3.0.0 to 4.0.1. This issue affects 1+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubestellar",
+        "sandbox",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kubestellar"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
     },
     {
       "path": "solutions/cncf-generated/linkerd/linkerd-10762-can-t-deploy-linkerd-v2-13-x-with-argocd.json",
@@ -9671,6 +10165,62 @@
         "script"
       ],
       "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-5169-add-a-provider-for-key-value-kv-store-in-traefik-v2.json",
+      "title": "traefik: Add a provider for Key Value (KV) Store in Traefik v2",
+      "description": "Add a provider for Key Value (KV) Store in Traefik v2. This issue affects 39+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/traefik/traefik-5598-healthchecks-for-tcp-forwarded-connections.json",
+      "title": "traefik: Healthchecks for TCP forwarded connections",
+      "description": "Healthchecks for TCP forwarded connections. This issue affects 39+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "traefik",
+        "community",
+        "ingress",
+        "feature"
+      ],
+      "cncfProjects": [
+        "traefik"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     }
   ]
 }
