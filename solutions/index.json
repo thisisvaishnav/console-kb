@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T05:34:01.933Z",
+  "generatedAt": "2026-03-10T05:36:43.008Z",
   "count": 272,
   "missions": [
     {
@@ -5422,7 +5422,7 @@
       "installMethods": [
         "helm"
       ],
-      "projectVersion": "v1.17.1",
+      "projectVersion": "v1.16.3",
       "maturity": "incubating",
       "qualityScore": 100
     },
