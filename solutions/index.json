@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T02:47:56.869Z",
-  "count": 326,
+  "generatedAt": "2026-03-11T02:58:24.767Z",
+  "count": 330,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo/argo-4116-add-option-to-create-one-off-job-from-cron-job.json",
@@ -10554,6 +10554,114 @@
         "Service"
       ],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-365-adaptive-sampling.json",
+      "title": "jaeger: Adaptive Sampling",
+      "description": "Adaptive Sampling. Requested by 56+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-3571-elasticsearch-8-x-support.json",
+      "title": "jaeger: Elasticsearch 8.x support",
+      "description": "Elasticsearch 8.x support. Requested by 28+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-422-how-to-support-plugins.json",
+      "title": "jaeger: How to support plugins",
+      "description": "How to support plugins. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/jaeger/jaeger-1474-support-elasticsearch-7-x.json",
+      "title": "jaeger: Support Elasticsearch 7.x",
+      "description": "Support Elasticsearch 7.x. Requested by 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "jaeger",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "jaeger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
       "issueTypes": [
         "feature"
       ],
