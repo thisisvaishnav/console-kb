@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-10T23:55:02.455Z",
-  "count": 302,
+  "generatedAt": "2026-03-11T01:05:33.977Z",
+  "count": 303,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo/argo-4116-add-option-to-create-one-off-job-from-cron-job.json",
@@ -739,6 +739,29 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/troubleshoot/solution-fix-kubevuln-crash-looping-due-to-ephemeral-storage-eviction.json",
+      "title": "Fix kubevuln crash-looping due to ephemeral storage eviction",
+      "description": "**Problem:** kubevuln pods were repeatedly evicted because their ephemeral local storage usage exceeded the 10Gi limit. The vulnerability database downloads and image scan caches consumed more than th",
+      "category": "troubleshoot",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "CrashLoopBackOff",
+        "Deployment",
+        "Kubescape"
+      ],
+      "cncfProjects": [],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "CrashLoopBackOff"
+      ],
+      "type": "troubleshoot",
+      "installMethods": []
     },
     {
       "path": "solutions/cncf-generated/harbor/harbor-10496-feature-request-provide-a-ui-to-visualize-container-vulnerabilities.json",
