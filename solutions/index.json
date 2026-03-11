@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T02:05:31.179Z",
-  "count": 315,
+  "generatedAt": "2026-03-11T02:12:29.055Z",
+  "count": 319,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo/argo-4116-add-option-to-create-one-off-job-from-cron-job.json",
@@ -901,6 +901,125 @@
       ],
       "type": "troubleshoot",
       "installMethods": []
+    },
+    {
+      "path": "solutions/cncf-generated/flagger/flagger-944-interaction-of-hpa-progressdeadlineseconds-flag-can-cause-canary-fai.json",
+      "title": "flagger: Interaction of HPA + progressDeadlineSeconds flag can cause canary failure during peak times",
+      "description": "Interaction of HPA + progressDeadlineSeconds flag can cause canary failure during peak times. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flagger",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "flagger"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Ingress"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/flagger/flagger-1350-support-for-istio-s-warmupdurationsecs.json",
+      "title": "flagger: Support for istio's warmupDurationSecs",
+      "description": "Support for istio's warmupDurationSecs. Requested by 15+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flagger",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flagger"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/flagger/flagger-1556-support-for-tcp-canary-deployments.json",
+      "title": "flagger: Support for TCP Canary Deployments",
+      "description": "Support for TCP Canary Deployments. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flagger",
+        "graduated",
+        "app-definition",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "flagger"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Ingress",
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/flagger/flagger-499-traefik-support.json",
+      "title": "flagger: Traefik support",
+      "description": "Traefik support. Requested by 35+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flagger",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flagger"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/cncf-generated/harbor/harbor-10496-feature-request-provide-a-ui-to-visualize-container-vulnerabilities.json",
