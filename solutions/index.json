@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-11T15:02:33.861Z",
-  "count": 439,
+  "generatedAt": "2026-03-13T02:33:02.508Z",
+  "count": 440,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -13382,6 +13382,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/opentofu/opentofu-2522-allow-arbitrary-expressions-in-the-prevent-destroy-argument-of-a-r.json",
+      "title": "opentofu: Allow arbitrary expressions in the `prevent_destroy` argument of a `resource` lifecycle block",
+      "description": "Allow arbitrary expressions in the `prevent_destroy` argument of a `resource` lifecycle block. Requested by 58+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentofu",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentofu"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
