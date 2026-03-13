@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:37:00.037Z",
-  "count": 460,
+  "generatedAt": "2026-03-13T02:37:34.146Z",
+  "count": 465,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -1145,6 +1145,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/dify/dify-7504-please-add-support-change-chatbot-icon-to-app-icon.json",
+      "title": "dify: please add support change chatbot icon to app icon",
+      "description": "please add support change chatbot icon to app icon. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dify",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dify"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "community"
     },
@@ -12282,6 +12309,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/keycloak/keycloak-9758-user-attributes-with-a-text-more-than-255-characters.json",
+      "title": "keycloak: User attributes with a text more than 255 characters",
+      "description": "User attributes with a text more than 255 characters. Requested by 30+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keycloak",
+        "community",
+        "identity",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keycloak"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/keylime/keylime-1775-ek-certificate-verification-fails-due-to-issuer-mismatch-in-keylime.json",
       "title": "keylime: EK Certificate Verification Fails Due to Issuer Mismatch in Keylime Agent's Retrieved Certificate",
       "description": "EK Certificate Verification Fails Due to Issuer Mismatch in Keylime Agent's Retrieved Certificate. This issue affects 0+ users.",
@@ -13136,6 +13190,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/langflow/langflow-2885-ollama-component-cannot-get-models-from-ollama-server.json",
+      "title": "langflow: Ollama component cannot get models from Ollama server",
+      "description": "Ollama component cannot get models from Ollama server. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "langflow",
+        "community",
+        "ai-app",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "langflow"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/langflow/langflow-3973-support-for-lmstudio.json",
       "title": "langflow: Support for LMStudio",
       "description": "Support for LMStudio. Community-requested feature.",
@@ -13872,6 +13953,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/opentofu/opentofu-2917-provider-configurations-with-for-each-are-not-compatible-with-mock.json",
+      "title": "opentofu: Provider configurations with `for_each` are not compatible with `mock_provider` in test configurations",
+      "description": "Provider configurations with `for_each` are not compatible with `mock_provider` in test configurations. This issue affects 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentofu",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "opentofu"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "sandbox"
     },
@@ -15000,6 +15108,36 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/vllm/vllm-6928-feature-support-rerank-models.json",
+      "title": "vllm: Support rerank models",
+      "description": "Add support for rerank (cross-encoder) models in vLLM, enabling high-throughput reranking for RAG workflows. Rerank models like jina-reranker-v2 and bge-reranker are essential for retrieval-augmented ",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vllm",
+        "community",
+        "llm-serving",
+        "feature",
+        "rerank",
+        "rag",
+        "cross-encoder"
+      ],
+      "cncfProjects": [
+        "vllm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
