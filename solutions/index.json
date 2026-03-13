@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:34:07.160Z",
-  "count": 441,
+  "generatedAt": "2026-03-13T02:34:28.209Z",
+  "count": 443,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -12147,6 +12147,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/keycloak/keycloak-17432-add-support-for-smtp-oauth-2-0-authentication-for-outgoing-email.json",
+      "title": "keycloak: Add support for SMTP OAuth 2.0 authentication for outgoing email",
+      "description": "Add support for SMTP OAuth 2.0 authentication for outgoing email. Requested by 57+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keycloak",
+        "community",
+        "identity",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keycloak"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/keycloak/keycloak-14644-external-idp-tokens-are-not-refreshed-automatically-for-oauth2-oi.json",
       "title": "keycloak: External IDP tokens are not refreshed automatically for OAuth2 & OIDC IDPs when retrieving the external token",
       "description": "External IDP tokens are not refreshed automatically for OAuth2 & OIDC IDPs when retrieving the external token. Requested by 62+ users.",
@@ -13409,6 +13436,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/opentofu/opentofu-1336-allow-variable-validation-conditions-to-refer-to-other-variables.json",
+      "title": "opentofu: Allow Variable Validation Conditions to Refer to Other Variables",
+      "description": "Allow Variable Validation Conditions to Refer to Other Variables. Requested by 54+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentofu",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentofu"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
