@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T06:57:38.194Z",
-  "count": 519,
+  "generatedAt": "2026-03-13T14:54:28.822Z",
+  "count": 520,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -12075,6 +12075,36 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/k3s/k3s-1405-support-for-dual-stack-kubernetes-cluster.json",
+      "title": "k3s: Support for dual-stack Kubernetes cluster",
+      "description": "Support for dual-stack Kubernetes cluster. Requested by 36+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "k3s",
+        "sandbox",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "k3s"
+      ],
+      "targetResourceKinds": [
+        "Node",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
     },
     {
       "path": "solutions/cncf-generated/kagenti/kagenti-115-bug-question-keycloak-connection-recovery-long-lived-kind-cluster.json",
