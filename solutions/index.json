@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:38:18.729Z",
-  "count": 472,
+  "generatedAt": "2026-03-13T02:38:51.154Z",
+  "count": 477,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -12363,6 +12363,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/keycloak/keycloak-33804-support-multiple-mail-domains-for-linked-idps-per-organization.json",
+      "title": "keycloak: Support multiple mail domains for linked IDPs per organization",
+      "description": "Support multiple mail domains for linked IDPs per organization. Requested by 27+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keycloak",
+        "community",
+        "identity",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keycloak"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/keycloak/keycloak-39629-trusted-host-don-t-set-cors-headers-in-oidc-client-registration.json",
       "title": "keycloak: Trusted Host don't set CORS headers in OIDC Client Registration",
       "description": "Trusted Host don't set CORS headers in OIDC Client Registration. This issue affects 35+ users.",
@@ -14173,6 +14200,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/oras/oras-1670-artifacttype-in-index-manifest-and-in-its-manifests-descriptors.json",
+      "title": "oras: artifactType in index manifest and in its \"manifests\" descriptors",
+      "description": "artifactType in index manifest and in its \"manifests\" descriptors. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "oras",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "oras"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/prometheus/prometheus-535-add-mechanism-to-perform-bulk-imports.json",
       "title": "prometheus: Add mechanism to perform bulk imports",
       "description": "Add mechanism to perform bulk imports. This issue affects 127+ users.",
@@ -14826,6 +14880,67 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/telepresence/telepresence-1607-v2-feature-request-develop-an-ability-to-intercept-several-por.json",
+      "title": "telepresence: [v2] - Feature request - Develop an ability to intercept several ports of deployment",
+      "description": "[v2] - Feature request - Develop an ability to intercept several ports of deployment. Requested by 84+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "telepresence",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "telepresence"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/telepresence/telepresence-753-error-when-kubernetes-cluster-is-running-on-arm64-processor.json",
+      "title": "telepresence: Error when kubernetes cluster is running on arm64 processor",
+      "description": "Error when kubernetes cluster is running on arm64 processor. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "telepresence",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "telepresence"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/telepresence/telepresence-115-sshfs-won-t-work-inside-wsl-on-windows-or-inside-docker-by-defa.json",
       "title": "telepresence: sshfs won't work inside WSL on Windows, or inside Docker by default",
       "description": "sshfs won't work inside WSL on Windows, or inside Docker by default. Community-requested feature.",
@@ -15217,6 +15332,35 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/vllm/vllm-2422-phi-2-broken.json",
+      "title": "vllm: Phi-2 model broken (AttributeError in PhiConfig)",
+      "description": "Fix for the Phi-2 model failing to load in vLLM due to AttributeError: 'PhiConfig' object has no attribute 'layer_norm_epsilon' (should be 'layer_norm_eps') and missing 'rotary_dim' attribute. This af",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "vllm",
+        "community",
+        "llm-serving",
+        "troubleshoot",
+        "phi-2",
+        "model-loading"
+      ],
+      "cncfProjects": [
+        "vllm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
     },
