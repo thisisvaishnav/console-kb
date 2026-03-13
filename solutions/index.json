@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-13T02:34:55.819Z",
-  "count": 444,
+  "generatedAt": "2026-03-13T02:35:12.127Z",
+  "count": 446,
   "missions": [
     {
       "path": "solutions/cncf-generated/argo-workflows/argo-workflows-6256-successfully-finished-pods-show-stuck-in-pending-phase-indef.json",
@@ -12201,6 +12201,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/keycloak/keycloak-39629-trusted-host-don-t-set-cors-headers-in-oidc-client-registration.json",
+      "title": "keycloak: Trusted Host don't set CORS headers in OIDC Client Registration",
+      "description": "Trusted Host don't set CORS headers in OIDC Client Registration. This issue affects 35+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keycloak",
+        "community",
+        "identity",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "keycloak"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/keylime/keylime-1775-ek-certificate-verification-fails-due-to-issuer-mismatch-in-keylime.json",
       "title": "keylime: EK Certificate Verification Fails Due to Issuer Mismatch in Keylime Agent's Retrieved Certificate",
       "description": "EK Certificate Verification Fails Due to Issuer Mismatch in Keylime Agent's Retrieved Certificate. This issue affects 0+ users.",
@@ -13409,6 +13436,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/opentofu/opentofu-1033-add-support-for-for-each-in-the-import-block.json",
+      "title": "opentofu: Add support for `for_each` in the `import` block",
+      "description": "Add support for `for_each` in the `import` block. Requested by 34+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentofu",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentofu"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
