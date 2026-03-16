@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-16T12:33:25.109Z",
-  "count": 907,
+  "generatedAt": "2026-03-16T12:39:14.700Z",
+  "count": 949,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -256,6 +256,35 @@
         "Namespace"
       ],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-events/argo-events-3695-message-distribution-across-partitions-when-using-kafka-eventbu.json",
+      "title": "argo-events: Message distribution across partitions when using Kafka EventBus",
+      "description": "Message distribution across partitions when using Kafka EventBus. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-events",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "argo-events"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "beginner",
       "issueTypes": [
         "troubleshoot"
       ],
@@ -525,6 +554,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-1029-ability-to-control-stable-scale-when-using-traffic-routing.json",
+      "title": "argo-rollouts: Ability to control stable scale when using traffic routing",
+      "description": "Ability to control stable scale when using traffic routing. Requested by 35+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Ingress",
+        "Replicaset"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-3991-add-an-option-to-proceed-to-the-next-rollout-step-based-on-a-.json",
       "title": "argo-rollouts: Add an option to proceed to the next rollout step based on a percentage of available replicas",
       "description": "Add an option to proceed to the next rollout step based on a percentage of available replicas. Requested by 17+ users.",
@@ -547,6 +607,33 @@
         "Deployment",
         "Replicaset"
       ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-369-add-webhooks-for-rollout-failure-success.json",
+      "title": "argo-rollouts: Add webhooks for rollout failure/success",
+      "description": "Add webhooks for rollout failure/success. Requested by 33+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "beginner",
       "issueTypes": [
         "feature"
@@ -587,6 +674,67 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-2931-blue-green-stuck-indefinitely-during-a-scaling-event-with-pre.json",
+      "title": "argo-rollouts: blue-green stuck indefinitely during a scaling event with prePromotionAnalysis & previewReplicaCount",
+      "description": "blue-green stuck indefinitely during a scaling event with prePromotionAnalysis & previewReplicaCount. This issue affects 27+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Namespace",
+        "Replicaset"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-2813-datadog-v2-api-fails-when-using-formulas-in-query.json",
+      "title": "argo-rollouts: Datadog v2 API fails when using formulas in query",
+      "description": "Datadog v2 API fails when using formulas in query. This issue affects 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-1191-istio-integrated-canary-in-multi-cluster-setup.json",
       "title": "argo-rollouts: Istio integrated canary in multi-cluster setup",
       "description": "Istio integrated canary in multi-cluster setup. Requested by 19+ users.",
@@ -608,6 +756,35 @@
         "Service"
       ],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-1184-provide-manifests-so-rollout-dashboard-can-be-accessed-via-in.json",
+      "title": "argo-rollouts: Provide manifests so rollout dashboard can be accessed via Ingress",
+      "description": "Provide manifests so rollout dashboard can be accessed via Ingress. Requested by 23+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Ingress"
+      ],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -641,6 +818,123 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-1100-support-having-multiple-virtualservice-objects.json",
+      "title": "argo-rollouts: Support having multiple VirtualService objects",
+      "description": "Support having multiple VirtualService objects. Requested by 29+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Ingress"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-516-traefik-support.json",
+      "title": "argo-rollouts: Traefik Support",
+      "description": "Traefik Support. Requested by 58+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-782-traffic-management-for-kong-ingress-controller-and-kuma.json",
+      "title": "argo-rollouts: Traffic management for kong ingress controller and kuma",
+      "description": "Traffic management for kong ingress controller and kuma. Requested by 47+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Ingress"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/argo-rollouts/argo-rollouts-3366-use-of-native-sidecarcontainers-init-container-with-restartpo.json",
+      "title": "argo-rollouts: Use of native SidecarContainers (init container with `restartPolicy: Always`) results in pod status getting stuck on `Init`",
+      "description": "Use of native SidecarContainers (init container with `restartPolicy: Always`) results in pod status getting stuck on `Init`. This issue affects 29+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "argo-rollouts",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "argo-rollouts"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -1869,6 +2163,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/atlantis/atlantis-2240-display-issue-with-split-atlantis-comments-in-github.json",
+      "title": "atlantis: Display issue with split atlantis comments in Github",
+      "description": "Display issue with split atlantis comments in Github. This issue affects 21+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "atlantis",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "atlantis"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/atlantis/atlantis-1834-feature-request-halt-execution-on-pre-workflow-hook-failure.json",
       "title": "atlantis: Feature Request: Halt execution on pre-workflow hook failure",
       "description": "Feature Request: Halt execution on pre-workflow hook failure. Requested by 20+ users.",
@@ -2249,6 +2570,60 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/backstage/backstage-7684-rfc-ability-to-use-the-signed-in-users-oauth-credentials-in-the-s.json",
+      "title": "backstage: [RFC] Ability to use the signed in users oauth credentials in the Scaffolder",
+      "description": "[RFC] Ability to use the signed in users oauth credentials in the Scaffolder. Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "backstage",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "backstage"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/backstage/backstage-3076-rfc-stability-index.json",
+      "title": "backstage: [RFC] Stability Index",
+      "description": "[RFC] Stability Index. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "backstage",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "backstage"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/backstage/backstage-12844-rfc-standardize-aws-authentication-in-backstage.json",
       "title": "backstage: [RFC] Standardize AWS authentication in Backstage",
       "description": "[RFC] Standardize AWS authentication in Backstage. Requested by 36+ users.",
@@ -2299,6 +2674,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/backstage/backstage-22142-bug-report-getting-started-failing.json",
+      "title": "backstage: 🐛 Bug Report: \"Getting Started\" failing",
+      "description": "🐛 Bug Report: \"Getting Started\" failing. This issue affects 15+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "backstage",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "backstage"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "incubating"
     },
@@ -2521,6 +2923,195 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/buildpacks/buildpacks-1519-pack-build-fails-with-experimental-containerd-feature-enabled-in.json",
+      "title": "buildpacks: `pack build` fails with experimental containerd feature enabled in Docker Desktop (macos)",
+      "description": "`pack build` fails with experimental containerd feature enabled in Docker Desktop (macos). Users encounter: \"failed to build: failed to fetch builder image 'index.docker.io/paketobuildpacks/builder:ba",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "buildpacks",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "buildpacks"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/buildpacks/buildpacks-491-allow-caching-all-layers-in-the-remote-registry.json",
+      "title": "buildpacks: Allow caching all layers in the remote registry",
+      "description": "Allow caching all layers in the remote registry. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "buildpacks",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "buildpacks"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/buildpacks/buildpacks-907-cross-compile-binary-for-armv7-and-arm-64.json",
+      "title": "buildpacks: Cross-compile binary for ARMv7 and ARM 64",
+      "description": "Cross-compile binary for ARMv7 and ARM 64. Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "buildpacks",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "buildpacks"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/buildpacks/buildpacks-2464-docker-api-version-1-44.json",
+      "title": "buildpacks: Docker API Version 1.44",
+      "description": "Docker API Version 1.44. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "buildpacks",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "buildpacks"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/buildpacks/buildpacks-468-docker-image-with-pack.json",
+      "title": "buildpacks: Docker Image with Pack",
+      "description": "Docker Image with Pack. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "buildpacks",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "buildpacks"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/buildpacks/buildpacks-1459-provide-a-way-to-specify-desired-platform-when-creating-packages.json",
+      "title": "buildpacks: Provide a way to specify desired platform when creating packages and builders",
+      "description": "Provide a way to specify desired platform when creating packages and builders. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "buildpacks",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "buildpacks"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/buildpacks/buildpacks-1218-use-fully-qualified-image-names-podman-compatibility.json",
+      "title": "buildpacks: Use fully qualified image names (podman compatibility)",
+      "description": "Use fully qualified image names (podman compatibility). Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "buildpacks",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "buildpacks"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/caddy/caddy-7192-allow-global-dns-resolvers-directive.json",
@@ -3332,6 +3923,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/clickhouse/clickhouse-6697-correlated-subqueries.json",
+      "title": "clickhouse: Correlated subqueries",
+      "description": "Correlated subqueries. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "clickhouse",
+        "community",
+        "analytics-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "clickhouse"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/clickhouse/clickhouse-1118-feature-request-explain-output.json",
       "title": "clickhouse: feature request: EXPLAIN output",
       "description": "feature request: EXPLAIN output. Requested by 40+ users.",
@@ -3387,6 +4005,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/clickhouse/clickhouse-17270-implement-jwt-for-clickhouse.json",
+      "title": "clickhouse: Implement JWT for ClickHouse",
+      "description": "Implement JWT for ClickHouse. Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "clickhouse",
+        "community",
+        "analytics-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "clickhouse"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/clickhouse/clickhouse-36536-implement-ulid-function.json",
       "title": "clickhouse: Implement ULID function",
       "description": "Implement ULID function. Requested by 21+ users.",
@@ -3406,6 +4051,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/clickhouse/clickhouse-37216-inverted-indices-rfc.json",
+      "title": "clickhouse: Inverted Indices (RFC)",
+      "description": "Inverted Indices (RFC). Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "clickhouse",
+        "community",
+        "analytics-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "clickhouse"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -20912,6 +21584,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/lima/lima-1381-panic-runtime-cgo-misuse-of-an-invalid-handle-code-hex-vz-v3-changesta.json",
+      "title": "lima: `panic: runtime/cgo: misuse of an invalid Handle` (`Code-Hex/vz/v3.changeStateOnObserver`)",
+      "description": "`panic: runtime/cgo: misuse of an invalid Handle` (`Code-Hex/vz/v3.changeStateOnObserver`). This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/lima/lima-1003-add-support-for-vnc-in-addition-to-the-current-qemu-displays.json",
       "title": "lima: Add support for VNC, in addition to the current QEMU displays",
       "description": "Add support for VNC, in addition to the current QEMU displays. Community-requested feature.",
@@ -20962,6 +21661,249 @@
         "upgrade"
       ],
       "type": "upgrade",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-615-file-system-change-events-inotify-support-for-mounted-directories.json",
+      "title": "lima: File system change events (inotify) support for mounted directories",
+      "description": "File system change events (inotify) support for mounted directories. Requested by 36+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-20-filesystem-sharing.json",
+      "title": "lima: Filesystem Sharing",
+      "description": "Filesystem Sharing. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-889-optional-support-for-virtualization-framework-on-macos-13.json",
+      "title": "lima: Optional support for Virtualization.framework (on macOS 13)",
+      "description": "Optional support for Virtualization.framework (on macOS 13). Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-158-set-instance-name-while-starting.json",
+      "title": "lima: Set instance name while starting",
+      "description": "Set instance name while starting. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-3601-stuck-network-when-using-multiple-connections-with-k3s.json",
+      "title": "lima: Stuck network when using multiple connections with k3s",
+      "description": "Stuck network when using multiple connections with k3s. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-1508-support-for-freebsd-guests.json",
+      "title": "lima: Support for FreeBSD guests ?",
+      "description": "Support for FreeBSD guests ?. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-366-udp-ports-not-forwarded-to-host.json",
+      "title": "lima: UDP ports not forwarded to host",
+      "description": "UDP ports not forwarded to host. Requested by 23+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-1088-use-rosetta2-as-a-binfmt-misc-handler-on-macos-ventura.json",
+      "title": "lima: Use Rosetta2 as a binfmt_misc handler on macOS Ventura",
+      "description": "Use Rosetta2 as a binfmt_misc handler on macOS Ventura. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/lima/lima-971-v1-0-roadmap-change-the-default-mount-driver-from-reverse-sshfs-to-9p-f.json",
+      "title": "lima: v1.0 roadmap: change the default mount driver from reverse-sshfs to 9p (for QEMU) and virtiofs (for vz)",
+      "description": "v1.0 roadmap: change the default mount driver from reverse-sshfs to 9p (for QEMU) and virtiofs (for vz). Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "lima",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "lima"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "incubating"
     },
@@ -21594,6 +22536,33 @@
       "path": "solutions/cncf-generated/localai/localai-3714-add-support-for-realtime-api.json",
       "title": "localai: Add support for realtime API",
       "description": "Add support for realtime API. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "localai",
+        "community",
+        "llm-serving",
+        "feature"
+      ],
+      "cncfProjects": [
+        "localai"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/localai/localai-5917-allow-sideloading-backends-on-filesystem.json",
+      "title": "localai: Allow sideloading backends on filesystem",
+      "description": "Allow sideloading backends on filesystem. Community-requested feature.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -22272,6 +23241,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/milvus/milvus-20415-bug-the-inserted-primary-key-is-different-from-the-returned-result.json",
+      "title": "milvus: [Bug]: The inserted primary key is different from the returned result",
+      "description": "[Bug]: The inserted primary key is different from the returned result. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "milvus",
+        "community",
+        "vector-db",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "milvus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
       "issueTypes": [
         "troubleshoot"
       ],
@@ -24322,6 +25318,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-11462-feature-request-simplify-exposing-the-machine-socke.json",
+      "title": "podman-container-tools: Feature request: simplify exposing the machine socket on OS X",
+      "description": "Feature request: simplify exposing the machine socket on OS X. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-21681-mac-current-head-errors-out-on-add-host-using-host-.json",
       "title": "podman-container-tools: Mac: current HEAD errors out on `--add-host` using `host-gateway` with \"host containers internal IP address is empty\"",
       "description": "Mac: current HEAD errors out on `--add-host` using `host-gateway` with \"host containers internal IP address is empty\". This issue affects 21+ users.",
@@ -24376,6 +25399,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-11383-podman-machine-init-allow-for-overriding-ignition-f.json",
+      "title": "podman-container-tools: podman machine init - allow for overriding ignition file",
+      "description": "podman machine init - allow for overriding ignition file. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-18111-podman-relies-in-config-on-specific-qemu-version-to.json",
       "title": "podman-container-tools: Podman relies in config on specific qemu version to start a machine",
       "description": "Podman relies in config on specific qemu version to start a machine. This issue affects 11+ users.",
@@ -24399,6 +25449,114 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-20418-podman-restart-service-does-not-restart-unless-stop.json",
+      "title": "podman-container-tools: podman-restart.service Does Not Restart \"unless-stopped\" Containers",
+      "description": "podman-restart.service Does Not Restart \"unless-stopped\" Containers. This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-1925-rfe-add-rename-subcommand-for-better-docker-compatib.json",
+      "title": "podman-container-tools: RFE: Add \"rename\" subcommand for better Docker compatibility",
+      "description": "RFE: Add \"rename\" subcommand for better Docker compatibility. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-9936-rootless-podman-won-t-work-since-version-3-1-0.json",
+      "title": "podman-container-tools: Rootless Podman won't work since version 3.1.0",
+      "description": "Rootless Podman won't work since version 3.1.0. This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/podman-container-tools/podman-container-tools-14390-support-special-ip-designator-host-gateway-in-add-h.json",
+      "title": "podman-container-tools: Support special IP designator `host-gateway` in `--add-host`.",
+      "description": "Support special IP designator `host-gateway` in `--add-host`.. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "podman-container-tools",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "podman-container-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
     },
