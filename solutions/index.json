@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-16T12:28:08.579Z",
-  "count": 888,
+  "generatedAt": "2026-03-16T12:31:45.890Z",
+  "count": 893,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -4635,6 +4635,60 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/dragonfly/dragonfly-2930-add-support-for-pub-sub-acls.json",
+      "title": "dragonfly: Add support for Pub/Sub ACLs",
+      "description": "Add support for Pub/Sub ACLs. Requested by 20+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dragonfly",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dragonfly"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/dragonfly/dragonfly-782-dragonfly-does-not-work-with-nest-bull.json",
+      "title": "dragonfly: Dragonfly does not work with nest/bull ",
+      "description": "Dragonfly does not work with nest/bull . This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dragonfly",
+        "community",
+        "cache",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "dragonfly"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/dragonfly/dragonfly-3644-healthcheck-in-dragonfly-v1-22-0-is-failing.json",
@@ -21480,6 +21534,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/longhorn/longhorn-11635-improvement-introduce-concurrent-job-limit-for-snapshot-operation.json",
+      "title": "longhorn: [IMPROVEMENT] Introduce Concurrent Job Limit for Snapshot Operations",
+      "description": "[IMPROVEMENT] Introduce Concurrent Job Limit for Snapshot Operations. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "longhorn",
+        "incubating",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "longhorn"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/longhorn/longhorn-6415-improvement-remove-or-change-helm-pre-upgrade-hook-to-support-argo.json",
       "title": "longhorn: [IMPROVEMENT] Remove or Change Helm pre-upgrade hook to support ArgoCD",
       "description": "[IMPROVEMENT] Remove or Change Helm pre-upgrade hook to support ArgoCD. This issue affects 16+ users.",
@@ -21834,9 +21915,63 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/minio/minio-4166-remove-a-bucket-from-gui.json",
+      "title": "minio: remove a bucket from gui? ",
+      "description": "remove a bucket from gui? . This issue affects 15+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "minio",
+        "community",
+        "object-storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "minio"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/minio/minio-9726-server-startup-failed-with-unable-to-initialize-sub-systems-unable-to.json",
       "title": "minio: Server startup failed with 'Unable to initialize sub-systems: Unable to migrate all config at .minio.sys/config/",
       "description": "Server startup failed with 'Unable to initialize sub-systems: Unable to migrate all config at .minio.sys/config/. This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "minio",
+        "community",
+        "object-storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "minio"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/minio/minio-4072-server-gateway-support-for-backblaze-b2.json",
+      "title": "minio: server: [gateway] Support for Backblaze B2",
+      "description": "server: [gateway] Support for Backblaze B2. This issue affects 9+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
