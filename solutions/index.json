@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T16:31:06.648Z",
-  "count": 1023,
+  "generatedAt": "2026-03-17T16:38:40.570Z",
+  "count": 1036,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -3528,6 +3528,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-241-clouddns-use-metadata-server-to-auth-with-clouddns-api.json",
+      "title": "cert-manager: CloudDNS: use metadata server to auth with CloudDNS API",
+      "description": "CloudDNS: use metadata server to auth with CloudDNS API. Requested by 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Namespace",
+        "Serviceaccount",
+        "Clusterrole"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-7540-cloudflare-dns-challenge-broken.json",
       "title": "cert-manager: Cloudflare - DNS Challenge Broken",
       "description": "Cloudflare - DNS Challenge Broken. This issue affects 79+ users.",
@@ -3644,6 +3675,62 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-294-how-do-i-force-a-cert-renewal-after-adding-new-entries-to-dnsna.json",
+      "title": "cert-manager: How do I force a cert renewal after adding new entries to dnsNames?",
+      "description": "How do I force a cert renewal after adding new entries to dnsNames?. This issue affects 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-6805-ingress-routes-for-challenges-created-with-pathtype-implementa.json",
+      "title": "cert-manager: Ingress routes for challenges created with pathType: ImplementationSpecific not working with Cilium",
+      "description": "Ingress routes for challenges created with pathType: ImplementationSpecific not working with Cilium. This issue affects 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Ingress"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-3958-sane-defaults-for-certificate-revision-history-limit.json",
       "title": "cert-manager: Sane defaults for Certificate revision history limit ",
       "description": "Sane defaults for Certificate revision history limit . Requested by 20+ users.",
@@ -3701,6 +3788,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-7695-support-acme-certificate-profile-selection-e-g-tlsserver-short.json",
+      "title": "cert-manager: Support ACME certificate profile selection (e.g. tlsserver, shortlived)",
+      "description": "Support ACME certificate profile selection (e.g. tlsserver, shortlived). Requested by 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/cert-manager/cert-manager-5904-support-azure-private-dns-zones-for-dns-challenge.json",
       "title": "cert-manager: Support Azure Private DNS Zones for DNS Challenge",
       "description": "Support Azure Private DNS Zones for DNS Challenge. Requested by 20+ users.",
@@ -3720,6 +3834,66 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-5085-support-azure-workload-identities.json",
+      "title": "cert-manager: Support Azure Workload Identities ",
+      "description": "Support Azure Workload Identities . Requested by 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace",
+        "Serviceaccount"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cert-manager/cert-manager-1064-support-for-openshift-route-object.json",
+      "title": "cert-manager: Support for OpenShift `route` object",
+      "description": "Support for OpenShift `route` object. Requested by 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Ingress"
+      ],
+      "difficulty": "advanced",
       "issueTypes": [
         "feature"
       ],
@@ -3759,6 +3933,65 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/cilium/cilium-38210-deadlock-in-compilation-lock-on-cilium-v1-17-0-v1-17-2.json",
+      "title": "cilium: Deadlock in compilation lock on Cilium v1.17.0 - v1.17.2",
+      "description": "Deadlock in compilation lock on Cilium v1.17.0 - v1.17.2. Users encounter: \"code = Unknown desc = failed to setup network for sandbox \"6fe91c8e8ebcee2b7f1541bff08471150a7c95f02\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cilium/cilium-16987-eni-ipam-mode-should-add-support-for-assigning-ip-prefixes-to-ec2-i.json",
+      "title": "cilium: ENI IPAM mode should add support for assigning IP prefixes to EC2 instance",
+      "description": "ENI IPAM mode should add support for assigning IP prefixes to EC2 instance. Requested by 26+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/cilium/cilium-19038-k8sservicehost-multiple-ips-hosts.json",
       "title": "cilium: k8sServiceHost multiple IPs/Hosts",
       "description": "k8sServiceHost multiple IPs/Hosts. This issue affects 36+ users.",
@@ -3784,6 +4017,66 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cilium/cilium-38059-multiple-consecutive-retries-of-updating-taints-and-conditions-for-.json",
+      "title": "cilium: Multiple consecutive retries of updating taints and conditions for a node failed",
+      "description": "Multiple consecutive retries of updating taints and conditions for a node failed. Users encounter: \"\"Node.core \\\"XXXXX\\\" not\".",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Node"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cilium/cilium-20915-scale-down-event-of-eks-kube-apiserver-causes-network-outage.json",
+      "title": "cilium: Scale-down event of EKS kube-apiserver causes network outage",
+      "description": "Scale-down event of EKS kube-apiserver causes network outage. This issue affects 22+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Ingress",
+        "Configmap"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -19167,6 +19460,35 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/keda/keda-2581-kafka-partitions-per-pod-scaling.json",
+      "title": "keda: Kafka Partitions Per Pod Scaling",
+      "description": "Kafka Partitions Per Pod Scaling. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/keda/keda-2633-metrics-api-scaler-support-different-format.json",
       "title": "keda: Metrics API Scaler support different format",
       "description": "Metrics API Scaler support different format. Requested by 9+ users.",
@@ -19186,6 +19508,35 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-3065-prometheus-scaler-add-option-to-consider-null-values-as-errors.json",
+      "title": "keda: Prometheus scaler - add option to consider null values as errors",
+      "description": "Prometheus scaler - add option to consider null values as errors. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -19301,6 +19652,35 @@
       "targetResourceKinds": [
         "Deployment",
         "Statefulset"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-2440-support-custom-formula-for-multiple-metrics.json",
+      "title": "keda: Support custom formula for multiple metrics",
+      "description": "Support custom formula for multiple metrics. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
