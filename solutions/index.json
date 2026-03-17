@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T18:37:33.274Z",
-  "count": 1032,
+  "generatedAt": "2026-03-17T18:49:54.194Z",
+  "count": 1029,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -20469,33 +20469,6 @@
       "maturity": "sandbox"
     },
     {
-      "path": "solutions/cncf-generated/kpt/kpt-962-homebrew-installation-fails-on-macos-11-big-sur.json",
-      "title": "kpt: homebrew installation fails on macOS 11 (Big Sur)",
-      "description": "homebrew installation fails on macOS 11 (Big Sur). This issue affects 22+ users.",
-      "category": "cncf-generated",
-      "missionClass": "solution",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "kpt",
-        "sandbox",
-        "app-definition",
-        "troubleshoot"
-      ],
-      "cncfProjects": [
-        "kpt"
-      ],
-      "targetResourceKinds": [],
-      "difficulty": "expert",
-      "issueTypes": [
-        "troubleshoot"
-      ],
-      "type": "troubleshoot",
-      "installMethods": [],
-      "maturity": "sandbox"
-    },
-    {
       "path": "solutions/cncf-generated/kpt/kpt-1544-kpt-doesn-t-work-with-symlinks.json",
       "title": "kpt: kpt doesn't work with symlinks",
       "description": "kpt doesn't work with symlinks. Community-reported issue.",
@@ -25972,33 +25945,6 @@
       "maturity": "community"
     },
     {
-      "path": "solutions/cncf-generated/open-webui/open-webui-929-feat-allow-login-without-authentication.json",
-      "title": "open-webui: feat: allow login without authentication",
-      "description": "feat: allow login without authentication. Requested by 47+ users.",
-      "category": "cncf-generated",
-      "missionClass": "solution",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "open-webui",
-        "community",
-        "ai-app",
-        "feature"
-      ],
-      "cncfProjects": [
-        "open-webui"
-      ],
-      "targetResourceKinds": [],
-      "difficulty": "intermediate",
-      "issueTypes": [
-        "feature"
-      ],
-      "type": "feature",
-      "installMethods": [],
-      "maturity": "community"
-    },
-    {
       "path": "solutions/cncf-generated/open-webui/open-webui-230-feat-configurable-openai-api-endpoint.json",
       "title": "open-webui: feat: configurable OpenAI API endpoint.",
       "description": "feat: configurable OpenAI API endpoint.. Requested by 16+ users.",
@@ -27927,33 +27873,6 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
-    },
-    {
-      "path": "solutions/cncf-generated/seaweedfs/seaweedfs-2445-mount-fuse-mount-seems-not-writeable-through-macos-finder.json",
-      "title": "seaweedfs: [mount] Fuse Mount seems not writeable through MacOS Finder",
-      "description": "[mount] Fuse Mount seems not writeable through MacOS Finder. Community-requested feature.",
-      "category": "cncf-generated",
-      "missionClass": "solution",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "seaweedfs",
-        "community",
-        "distributed-storage",
-        "feature"
-      ],
-      "cncfProjects": [
-        "seaweedfs"
-      ],
-      "targetResourceKinds": [],
-      "difficulty": "intermediate",
-      "issueTypes": [
-        "feature"
-      ],
-      "type": "feature",
-      "installMethods": [],
-      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/seaweedfs/seaweedfs-8251-leader-election-doesn-t-seem-to-be-working-on-4-10.json",
