@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-17T02:31:44.097Z",
-  "count": 967,
+  "generatedAt": "2026-03-17T07:00:25.501Z",
+  "count": 995,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -4976,6 +4976,37 @@
       "maturity": "incubating"
     },
     {
+      "path": "solutions/cncf-generated/contour/contour-855-document-how-to-run-multiple-contours-per-cluster-e-g-internal-and-e.json",
+      "title": "contour: document how to run multiple Contours per cluster (e.g. internal and external)",
+      "description": "document how to run multiple Contours per cluster (e.g. internal and external). Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "contour",
+        "incubating",
+        "networking",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "contour"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Ingress",
+        "Daemonset"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/contour/contour-1894-instructions-for-presenting-grpc-services-needs-a-guide.json",
       "title": "contour: Instructions for presenting grpc services needs a guide",
       "description": "Instructions for presenting grpc services needs a guide. Requested by 5+ users.",
@@ -5692,6 +5723,68 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/emissary-ingress/emissary-ingress-1576-allow-ambassador-helm-chart-to-use-crds-when-namespaced.json",
+      "title": "emissary-ingress: Allow ambassador Helm chart to use CRDS when namespaced ",
+      "description": "Allow ambassador Helm chart to use CRDS when namespaced . Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "emissary-ingress",
+        "incubating",
+        "networking",
+        "deploy"
+      ],
+      "cncfProjects": [
+        "emissary-ingress"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace",
+        "Clusterrole"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "deploy"
+      ],
+      "type": "deploy",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/emissary-ingress/emissary-ingress-3818-emissary-sends-gzip-encoded-payloads-to-backend-services.json",
+      "title": "emissary-ingress: Emissary sends gzip encoded payloads to backend services",
+      "description": "Emissary sends gzip encoded payloads to backend services. This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "emissary-ingress",
+        "incubating",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "emissary-ingress"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Namespace",
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/envoy/envoy-20907-peak-ewma-load-balancing.json",
@@ -6669,6 +6762,117 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/flatcar-container-linux/flatcar-container-linux-1453-rfe-ovhcloud-documentation.json",
+      "title": "flatcar-container-linux: [RFE] OVHcloud documentation",
+      "description": "[RFE] OVHcloud documentation. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flatcar-container-linux",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flatcar-container-linux"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/flatcar-container-linux/flatcar-container-linux-106-kernel-sources-not-loading-in-developmental-containe.json",
+      "title": "flatcar-container-linux: Kernel Sources not loading in Developmental Container",
+      "description": "Kernel Sources not loading in Developmental Container. This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flatcar-container-linux",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "flatcar-container-linux"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/flatcar-container-linux/flatcar-container-linux-737-new-package-request-qemu-guest-agent.json",
+      "title": "flatcar-container-linux: New Package Request: [qemu-guest-agent]",
+      "description": "New Package Request: [qemu-guest-agent]. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flatcar-container-linux",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flatcar-container-linux"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/flatcar-container-linux/flatcar-container-linux-847-stable-3227-2-2-randomly-causes-processes-to-hang-on.json",
+      "title": "flatcar-container-linux: Stable 3227.2.2 randomly causes processes to hang on I/O related operations",
+      "description": "Stable 3227.2.2 randomly causes processes to hang on I/O related operations. This issue affects 15+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flatcar-container-linux",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "flatcar-container-linux"
+      ],
+      "targetResourceKinds": [
+        "Node",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/flowise/flowise-4570-bug-composio-auth-status-fails-to-update-to-connected.json",
@@ -18893,6 +19097,93 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/keda/keda-5008-respect-to-cooldownperiod-for-the-first-deployment-and-let-service-is-.json",
+      "title": "keda: Respect to cooldownPeriod for the first deployment and let service is up and and running based on replica number for the first time. ",
+      "description": "Respect to cooldownPeriod for the first deployment and let service is up and and running based on replica number for the first time. . Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Statefulset"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-1963-support-pod-conditions-for-calculating-pendingjobcount-in-accurate-sca.json",
+      "title": "keda: Support Pod conditions for calculating PendingJobCount in accurate scaling startegy",
+      "description": "Support Pod conditions for calculating PendingJobCount in accurate scaling startegy. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Job"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/keda/keda-6660-upgrade-controller-runtime-dependency-to-v0-20-2-to-not-block-downstre.json",
+      "title": "keda: Upgrade controller-runtime dependency to v0.20.2 to not block downstream module imports",
+      "description": "Upgrade controller-runtime dependency to v0.20.2 to not block downstream module imports. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/kepler/kepler-743-lr-model-dyncomponentmodelweight.json",
       "title": "kepler:  LR Model (DynComponentModelWeight):",
       "description": " LR Model (DynComponentModelWeight):. Users encounter: \"model.go:87] Model Config CONTAINER_COMPONENTS: {UseEstimatorSidecar:false SelectedModel: SelectFilt\".",
@@ -22526,6 +22817,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/litellm/litellm-11742-bug-langfuse-otel-python-v3-sdk-callback-does-not-nest-calls-prope.json",
+      "title": "litellm: [Bug]: langfuse_otel (python v3 SDK) callback does not nest calls properly",
+      "description": "[Bug]: langfuse_otel (python v3 SDK) callback does not nest calls properly. This issue affects 15+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/litellm/litellm-14762-bug-latest-litellm-introduced-dependency-on-madoka-which-lacks-whe.json",
       "title": "litellm: [Bug]: latest LiteLLM introduced dependency on \"madoka\" - which lacks wheels for most environments",
       "description": "[Bug]: latest LiteLLM introduced dependency on \"madoka\" - which lacks wheels for most environments. This issue affects 36+ users.",
@@ -22707,6 +23025,35 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/litellm/litellm-10024-bug-prisma-migrate-fails-with-a-custom-install.json",
+      "title": "litellm: [Bug]: Prisma Migrate fails with a custom install",
+      "description": "[Bug]: Prisma Migrate fails with a custom install. This issue affects 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "expert",
       "issueTypes": [
         "troubleshoot"
       ],
@@ -23353,6 +23700,36 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/metal3-io/metal3-io-580-typo-in-bootmacaddress-causes-non-obvious-failures.json",
+      "title": "metal3-io: Typo in bootMACAddress causes non-obvious failures",
+      "description": "Typo in bootMACAddress causes non-obvious failures. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "metal3-io",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "metal3-io"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
       "path": "solutions/cncf-generated/metallb/metallb-698-enhancement-controller-support-for-the-updated-k8s-dual-stack-api-v1.json",
       "title": "metallb: Enhancement; Controller support for the updated K8s dual-stack API (v1.20)",
       "description": "Enhancement; Controller support for the updated K8s dual-stack API (v1.20). Requested by 5+ users.",
@@ -23846,6 +24223,60 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/minio/minio-8391-sts-assumerole-getting-signaturedoesnotmatch-with-presigned-putobject.json",
+      "title": "minio: STS AssumeRole - Getting SignatureDoesNotMatch with Presigned PutObject Request",
+      "description": "STS AssumeRole - Getting SignatureDoesNotMatch with Presigned PutObject Request. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "minio",
+        "community",
+        "object-storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "minio"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/minio/minio-6995-the-cluster-is-restarted-successfully-only-when-all-nodes-are-started.json",
+      "title": "minio: The cluster is restarted successfully only when all nodes are started.",
+      "description": "The cluster is restarted successfully only when all nodes are started.. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "minio",
+        "community",
+        "object-storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "minio"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/modelpack/modelpack-19-rfc-model-annotation-and-config-guidelines.json",
       "title": "modelpack: [RFC] Model annotation and config guidelines",
       "description": "[RFC] Model annotation and config guidelines. Community-requested feature.",
@@ -23927,6 +24358,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "solutions/cncf-generated/n8n/n8n-11886-ai-nodes-timeout-after-5m.json",
+      "title": "n8n: AI nodes timeout after 5m",
+      "description": "AI nodes timeout after 5m. This issue affects 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/nats/nats-7760-consumer-filter-subjects-stop-matching-after-leader-step-down.json",
       "title": "nats: Consumer filter subjects stop matching after leader step-down",
       "description": "Consumer filter subjects stop matching after leader step-down. Requested by 12+ users.",
@@ -23979,6 +24437,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/notary-project/notary-project-259-notation-sign-doesn-t-work-on-main-branch.json",
+      "title": "notary-project: notation sign doesn't work on main branch",
+      "description": "notation sign doesn't work on main branch. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "notary-project",
+        "incubating",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "notary-project"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/oauth2-proxy/oauth2-proxy-1505-azure-provider-with-v7-2-1-and-adal-stop-working-access-token-.json",
@@ -24798,6 +25283,233 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/open-webui/open-webui-278-feat-ability-to-work-with-multiple-ollama-servers.json",
+      "title": "open-webui: Feat: Ability to work with multiple Ollama servers",
+      "description": "Feat: Ability to work with multiple Ollama servers. Requested by 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/open-webui/open-webui-929-feat-allow-login-without-authentication.json",
+      "title": "open-webui: feat: allow login without authentication",
+      "description": "feat: allow login without authentication. Requested by 47+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/open-webui/open-webui-230-feat-configurable-openai-api-endpoint.json",
+      "title": "open-webui: feat: configurable OpenAI API endpoint.",
+      "description": "feat: configurable OpenAI API endpoint.. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/open-webui/open-webui-7616-latest-node-docker-image-breaks-build.json",
+      "title": "open-webui: Latest Node Docker image breaks build",
+      "description": "Latest Node Docker image breaks build. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/opencost/opencost-2748-var-configs-cloud-configurations-json-wrn-and-err-messages-filling.json",
+      "title": "opencost: /var/configs/cloud-configurations.json WRN and ERR messages filling logs",
+      "description": "/var/configs/cloud-configurations.json WRN and ERR messages filling logs. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opencost",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opencost"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opencost/opencost-1223-make-namespace-annotations-labels-available-when-aggregating-by-na.json",
+      "title": "opencost: Make namespace annotations/labels available when aggregating by namespace",
+      "description": "Make namespace annotations/labels available when aggregating by namespace. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opencost",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opencost"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opencost/opencost-2281-no-request-or-usage-data-found-during-cpu-allocation-calculation.json",
+      "title": "opencost: No request or usage data found during CPU allocation calculation",
+      "description": "No request or usage data found during CPU allocation calculation. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opencost",
+        "incubating",
+        "observability",
+        "analyze"
+      ],
+      "cncfProjects": [
+        "opencost"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Ingress"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "analyze"
+      ],
+      "type": "analyze",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opencost/opencost-1622-opencost-should-support-the-aws-fargate-launch-type-which-is-bille.json",
+      "title": "opencost: OpenCost should support the AWS Fargate launch type which is billed differently than EC2",
+      "description": "OpenCost should support the AWS Fargate launch type which is billed differently than EC2. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opencost",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opencost"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Daemonset",
+        "Node"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/openebs/openebs-2396-pool-movement-attaching-the-same-disk-from-a-old-node-to-a-new-node.json",
@@ -26474,6 +27186,90 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/seaweedfs/seaweedfs-2445-mount-fuse-mount-seems-not-writeable-through-macos-finder.json",
+      "title": "seaweedfs: [mount] Fuse Mount seems not writeable through MacOS Finder",
+      "description": "[mount] Fuse Mount seems not writeable through MacOS Finder. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "seaweedfs",
+        "community",
+        "distributed-storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "seaweedfs"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/seaweedfs/seaweedfs-8251-leader-election-doesn-t-seem-to-be-working-on-4-10.json",
+      "title": "seaweedfs: Leader election doesn't seem to be working on 4.10",
+      "description": "Leader election doesn't seem to be working on 4.10. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "seaweedfs",
+        "community",
+        "distributed-storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "seaweedfs"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/seaweedfs/seaweedfs-7649-question-recommended-way-to-back-up-seaweedfs-cluster-data-exclud.json",
+      "title": "seaweedfs: Question: Recommended way to back up SeaweedFS cluster data (excluding some paths) for disaster recovery?",
+      "description": "Question: Recommended way to back up SeaweedFS cluster data (excluding some paths) for disaster recovery?. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "seaweedfs",
+        "community",
+        "distributed-storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "seaweedfs"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/security-compliance/security-compliance-724-fr-loose-mode-allowing-docker-mediatypes.json",
