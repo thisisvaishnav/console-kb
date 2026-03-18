@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-18T07:00:13.370Z",
-  "count": 1047,
+  "generatedAt": "2026-03-18T07:00:30.675Z",
+  "count": 1049,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -7423,6 +7423,37 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/fluid/fluid-1789-performance-not-meet-the-expectation-in-serverless-usecase.json",
+      "title": "fluid: Performance not meet the expectation in Serverless usecase",
+      "description": "Performance not meet the expectation in Serverless usecase. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluid",
+        "incubating",
+        "orchestration",
+        "analyze"
+      ],
+      "cncfProjects": [
+        "fluid"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Persistentvolumeclaim",
+        "Node"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "analyze"
+      ],
+      "type": "analyze",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/flux/flux-4411-bootstrap-more-details-for-flux-system-context-deadline-exceeded.json",
@@ -20365,6 +20396,37 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/knative/knative-3809-volume-mount-break-pod-startup.json",
+      "title": "knative: volume mount break Pod startup",
+      "description": "volume mount break Pod startup. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/cncf-generated/ko/ko-106-ko-stops-building-containers-after-golang-updates.json",
