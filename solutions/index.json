@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-18T17:11:29.563Z",
+  "generatedAt": "2026-03-18T20:05:35.814Z",
   "count": 1051,
   "missions": [
     {
@@ -16869,11 +16869,11 @@
     },
     {
       "path": "solutions/cncf-install/install-xregistry.json",
-      "title": "Install and Configure Xregistry on Kubernetes",
-      "description": "xRegistry is a metadata registry for discovering, validating, and versioning resources in distributed systems. Installing xRegistry allows you to manage your resources effectively through its server a",
+      "title": "Install and Run xRegistry",
+      "description": "xRegistry is a CNCF Sandbox metadata registry for discovering, validating, and versioning resources in distributed systems. It provides both a server (API) and a CLI tool (`xr`). The server runs as a ",
       "category": "cncf-install",
       "missionClass": "install",
-      "author": "KubeStellar Bot",
+      "author": "KubeStellar Community",
       "authorGithub": "kubestellar",
       "authorAvatar": "https://github.com/kubestellar.png",
       "tags": [
@@ -16886,21 +16886,16 @@
       "cncfProjects": [
         "xregistry"
       ],
-      "targetResourceKinds": [
-        "Deployment",
-        "Service",
-        "Namespace"
-      ],
-      "difficulty": "intermediate",
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
-        "installation",
-        "configuration"
+        "installation"
       ],
       "type": "deploy",
       "installMethods": [
-        "kubectl"
+        "docker"
       ],
-      "projectVersion": "latest",
+      "projectVersion": "dev",
       "maturity": "sandbox",
       "qualityScore": 100
     },
