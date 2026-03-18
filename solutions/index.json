@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-18T12:17:16.611Z",
-  "count": 1049,
+  "generatedAt": "2026-03-18T15:05:09.976Z",
+  "count": 1063,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -3933,6 +3933,62 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/cilium/cilium-30984-cfp-introduce-ha-mode-for-dns-proxy.json",
+      "title": "cilium: CFP: Introduce HA mode for DNS proxy",
+      "description": "CFP: Introduce HA mode for DNS proxy. Requested by 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cilium/cilium-21438-cfp-support-proxy-protocol-from-external-loadbalancers.json",
+      "title": "cilium: CFP: Support PROXY Protocol from external LoadBalancers",
+      "description": "CFP: Support PROXY Protocol from external LoadBalancers. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Ingress"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/cilium/cilium-38210-deadlock-in-compilation-lock-on-cilium-v1-17-0-v1-17-2.json",
       "title": "cilium: Deadlock in compilation lock on Cilium v1.17.0 - v1.17.2",
       "description": "Deadlock in compilation lock on Cilium v1.17.0 - v1.17.2. Users encounter: \"code = Unknown desc = failed to setup network for sandbox \"6fe91c8e8ebcee2b7f1541bff08471150a7c95f02\".",
@@ -3992,6 +4048,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/cilium/cilium-23192-errors-and-warnings-about-identity-release.json",
+      "title": "cilium: Errors and warnings about identity release",
+      "description": "Errors and warnings about identity release. This issue affects 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Node",
+        "Service"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/cilium/cilium-19038-k8sservicehost-multiple-ips-hosts.json",
       "title": "cilium: k8sServiceHost multiple IPs/Hosts",
       "description": "k8sServiceHost multiple IPs/Hosts. This issue affects 36+ users.",
@@ -4017,6 +4104,66 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cilium/cilium-14072-l7-visibility-annotations-do-not-work-with-proxylib-parsers-includi.json",
+      "title": "cilium: L7 visibility annotations do not work with proxylib parsers (including Kafka)",
+      "description": "L7 visibility annotations do not work with proxylib parsers (including Kafka). Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/cilium/cilium-24351-lb-ipam-unable-to-set-single-addresses-as-a-pool.json",
+      "title": "cilium: LB-IPAM: Unable to set single addresses as a pool",
+      "description": "LB-IPAM: Unable to set single addresses as a pool. This issue affects 18+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Namespace",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -7721,6 +7868,33 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/grpc/grpc-24846-grpc-c-bundle-fails-to-load-on-apple-m1-wrong-architecture.json",
+      "title": "grpc: grpc_c.bundle fails to load on Apple M1 (wrong architecture)",
+      "description": "grpc_c.bundle fails to load on Apple M1 (wrong architecture). This issue affects 40+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "grpc",
+        "incubating",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "grpc"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "solutions/cncf-generated/hami/hami-1050-cuda-disable-control-true-has-no-effect-hami-still-hijacks-gpu-behavio.json",
@@ -15786,7 +15960,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "kubectl"
       ],
       "qualityScore": 100
     },
@@ -20393,6 +20567,64 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "sandbox"
+    },
+    {
+      "path": "solutions/cncf-generated/knative/knative-11069-compatibility-with-secret-store-csi-driver.json",
+      "title": "knative: Compatibility with Secret Store CSI Driver?",
+      "description": "Compatibility with Secret Store CSI Driver?. Requested by 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [
+        "Configmap",
+        "Service",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/knative/knative-8441-storage-version-migration-job-never-completes-on-istio-enabled-clus.json",
+      "title": "knative: storage-version-migration job never completes on istio enabled cluster",
+      "description": "storage-version-migration job never completes on istio enabled cluster. This issue affects 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/cncf-generated/knative/knative-3809-volume-mount-break-pod-startup.json",
@@ -25091,6 +25323,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/n8n/n8n-30-better-authentication-with-service-providers.json",
+      "title": "n8n: Better authentication with service providers",
+      "description": "Better authentication with service providers. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "n8n",
+        "community",
+        "workflow",
+        "feature"
+      ],
+      "cncfProjects": [
+        "n8n"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/n8n/n8n-14774-bug-toolsagent-handleparsedstepoutput-incorrectly-nests-output-key-in-.json",
       "title": "n8n: Bug: ToolsAgent: handleParsedStepOutput incorrectly nests 'output' key in returnValues for memory, causing LLM mislearning and Zod validation failures after several turns",
       "description": "Bug: ToolsAgent: handleParsedStepOutput incorrectly nests 'output' key in returnValues for memory, causing LLM mislearning and Zod validation failures after several turns. This issue affects 5+ users.",
@@ -26342,6 +26601,33 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/open-webui/open-webui-652-feat-delete-parts-of-conversation.json",
+      "title": "open-webui: Feat: delete parts of conversation.",
+      "description": "Feat: delete parts of conversation.. Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/open-webui/open-webui-3527-feat-knowledge-projects-revamped-documents-section.json",
       "title": "open-webui: feat: knowledge/projects (revamped documents section)",
       "description": "feat: knowledge/projects (revamped documents section). Requested by 26+ users.",
@@ -26361,6 +26647,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/open-webui/open-webui-596-feat-support-ollama-s-keep-alive-request-parameter.json",
+      "title": "open-webui: feat: Support ollama's keep_alive request parameter",
+      "description": "feat: Support ollama's keep_alive request parameter. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -26588,6 +26901,33 @@
         "Node"
       ],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/opencost/opencost-2221-oracle-cloud-infrastructure-oci-provider-implementation.json",
+      "title": "opencost: Oracle Cloud Infrastructure (OCI) Provider implementation",
+      "description": "Oracle Cloud Infrastructure (OCI) Provider implementation. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opencost",
+        "incubating",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opencost"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
       "issueTypes": [
         "feature"
       ],
@@ -29129,6 +29469,60 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/surrealdb/surrealdb-4041-bug-rust-fails-to-build-surrealdb.json",
+      "title": "surrealdb: Bug: Rust fails to build surrealdb",
+      "description": "Bug: Rust fails to build surrealdb. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "surrealdb",
+        "community",
+        "multi-model-db",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "surrealdb"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/surrealdb/surrealdb-1652-feature-support-for-storing-large-binary-data-files.json",
+      "title": "surrealdb: Feature: Support for storing large binary data / files",
+      "description": "Feature: Support for storing large binary data / files. Requested by 28+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "surrealdb",
+        "community",
+        "multi-model-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "surrealdb"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/telepresence/telepresence-1607-v2-feature-request-develop-an-ability-to-intercept-several-por.json",
