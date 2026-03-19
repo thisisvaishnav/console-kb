@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-19T17:26:17.871Z",
+  "generatedAt": "2026-03-19T18:44:28.570Z",
   "count": 1111,
   "missions": [
     {
@@ -14839,6 +14839,43 @@
       "qualityScore": 100
     },
     {
+      "path": "solutions/cncf-install/install-slimtoolkit.json",
+      "title": "Install and Configure Mint (formerly SlimToolkit) on Kubernetes",
+      "description": "Mint (formerly SlimToolkit / DockerSlim) optimizes container images by analyzing application behavior and removing unnecessary files, reducing image size by up to 30x while automatically generating se",
+      "category": "cncf-install",
+      "missionClass": "install",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "installation",
+        "configuration",
+        "cncf",
+        "container-optimization",
+        "security",
+        "sandbox"
+      ],
+      "cncfProjects": [
+        "slimtoolkit"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Pod"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "installation",
+        "configuration"
+      ],
+      "type": "deploy",
+      "installMethods": [
+        "script"
+      ],
+      "projectVersion": "1.41.8",
+      "maturity": "sandbox",
+      "qualityScore": 100
+    },
+    {
       "path": "solutions/platform-install/platform-mongodb-community-operator.json",
       "title": "Install and Configure MongoDB Community Operator",
       "description": "The MongoDB Community Operator allows you to deploy and manage MongoDB Community instances on Kubernetes. It simplifies the management of MongoDB clusters, but it is deprecated and users are encourage",
@@ -16578,43 +16615,6 @@
         "kubectl"
       ],
       "projectVersion": "0.61.14",
-      "maturity": "sandbox",
-      "qualityScore": 100
-    },
-    {
-      "path": "solutions/cncf-install/install-slimtoolkit.json",
-      "title": "Install and Configure SlimToolkit on Kubernetes",
-      "description": "SlimToolkit (formerly DockerSlim) optimizes container images by analyzing application behavior and removing unnecessary files, reducing image size by up to 30x while automatically generating security ",
-      "category": "cncf-install",
-      "missionClass": "install",
-      "author": "KubeStellar Bot",
-      "authorGithub": "kubestellar",
-      "authorAvatar": "https://github.com/kubestellar.png",
-      "tags": [
-        "installation",
-        "configuration",
-        "cncf",
-        "container-optimization",
-        "security",
-        "sandbox"
-      ],
-      "cncfProjects": [
-        "slimtoolkit"
-      ],
-      "targetResourceKinds": [
-        "Deployment",
-        "Pod"
-      ],
-      "difficulty": "beginner",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
-      "type": "deploy",
-      "installMethods": [
-        "kubectl"
-      ],
-      "projectVersion": "1.40.11",
       "maturity": "sandbox",
       "qualityScore": 100
     },
