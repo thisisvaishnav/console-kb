@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-20T06:55:00.819Z",
-  "count": 1137,
+  "generatedAt": "2026-03-20T14:12:59.928Z",
+  "count": 1138,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -6167,6 +6167,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/coredns/coredns-3113-plugin-azure-add-support-for-private-zones.json",
+      "title": "coredns: plugin/azure: add support for private zones",
+      "description": "plugin/azure: add support for private zones. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "coredns",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "coredns"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
