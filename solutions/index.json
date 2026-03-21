@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-21T06:49:12.643Z",
-  "count": 1177,
+  "generatedAt": "2026-03-21T13:32:22.638Z",
+  "count": 1179,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -6251,6 +6251,37 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/coredns/coredns-7177-pr-6898-unexpectedly-breaks-creation-of-ptr-records.json",
+      "title": "coredns: PR #6898 unexpectedly breaks creation of PTR records",
+      "description": "PR #6898 unexpectedly breaks creation of PTR records. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "coredns",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "coredns"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -30068,6 +30099,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "solutions/cncf-generated/operator-framework/operator-framework-2042-crd-generation-via-generate-openapi-does-not-surface-err.json",
+      "title": "operator-framework: CRD generation via `generate openapi` does not surface errors for invalid tags",
+      "description": "CRD generation via `generate openapi` does not surface errors for invalid tags. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "operator-framework",
+        "incubating",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "operator-framework"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "incubating"
     },
