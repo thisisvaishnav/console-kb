@@ -1,8 +1,35 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-23T07:03:22.011Z",
-  "count": 1219,
+  "generatedAt": "2026-03-23T09:40:28.389Z",
+  "count": 1232,
   "missions": [
+    {
+      "path": "solutions/cncf-generated/alertmanager/alertmanager-4367-support-an-incident-io-notifier.json",
+      "title": "alertmanager: Support an incident.io notifier",
+      "description": "Support an incident.io notifier. Requested by 57+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
       "title": "antrea: Antrea Proxy NodePort Service Support",
@@ -3252,6 +3279,60 @@
       "maturity": "community"
     },
     {
+      "path": "solutions/cncf-generated/caddy/caddy-3219-disabling-http-to-https-redirect-from-caddyfile.json",
+      "title": "caddy: Disabling http-to-https redirect from Caddyfile",
+      "description": "Disabling http-to-https redirect from Caddyfile. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "feature"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-3896-frequent-hangs-when-using-http-2-push.json",
+      "title": "caddy: Frequent hangs when using http/2 push",
+      "description": "Frequent hangs when using http/2 push. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "solutions/cncf-generated/caddy/caddy-5086-http-3-support-in-reverse-proxy-module.json",
       "title": "caddy: http/3 support in reverse_proxy module",
       "description": "http/3 support in reverse_proxy module. This issue affects 10+ users.",
@@ -3406,6 +3487,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "expert",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/caddy/caddy-5374-support-loading-placeholder-content-from-files-for-systemd-credential.json",
+      "title": "caddy: Support loading placeholder content from files (for systemd credentials or docker secrets)",
+      "description": "Support loading placeholder content from files (for systemd credentials or docker secrets). Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "caddy",
+        "community",
+        "web-server",
+        "feature"
+      ],
+      "cncfProjects": [
+        "caddy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -6804,6 +6912,35 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/crossplane/crossplane-4573-implement-go-templates-as-a-composition-function.json",
+      "title": "crossplane: Implement Go Templates as a Composition Function",
+      "description": "Implement Go Templates as a Composition Function. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "crossplane",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "crossplane"
+      ],
+      "targetResourceKinds": [
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/crossplane/crossplane-3393-introduce-a-generic-usage-type-to-enforce-ordered-deletion.json",
       "title": "crossplane: Introduce a generic `Usage` type to enforce ordered deletion",
       "description": "Introduce a generic `Usage` type to enforce ordered deletion. Requested by 34+ users.",
@@ -6925,6 +7062,33 @@
       "path": "solutions/cncf-generated/dapr/dapr-5515-pubsub-override-cloud-event-attributes-via-metadata.json",
       "title": "dapr: [PubSub] override cloud event attributes via metadata",
       "description": "[PubSub] override cloud event attributes via metadata. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dapr",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dapr"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/dapr/dapr-3231-call-existing-grpc-methods-and-bring-your-own-grpc-protos-renewed-grpc.json",
+      "title": "dapr: Call existing gRPC methods and bring your own gRPC protos - renewed gRPC experience. ",
+      "description": "Call existing gRPC methods and bring your own gRPC protos - renewed gRPC experience. . Requested by 9+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -7795,6 +7959,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/envoy/envoy-35783-support-body-transformations.json",
+      "title": "envoy: Support Body Transformations",
+      "description": "Support Body Transformations. Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -9249,6 +9440,60 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/gitea/gitea-23668-actions-manually-trigger-a-workflow-action.json",
+      "title": "gitea: Actions - Manually trigger a workflow/action",
+      "description": "Actions - Manually trigger a workflow/action. Requested by 176+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "gitea",
+        "community",
+        "git-hosting",
+        "feature"
+      ],
+      "cncfProjects": [
+        "gitea"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/gitea/gitea-2529-wildcard-protected-branch.json",
+      "title": "gitea: Wildcard Protected Branch",
+      "description": "Wildcard Protected Branch. Requested by 43+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "gitea",
+        "community",
+        "git-hosting",
+        "feature"
+      ],
+      "cncfProjects": [
+        "gitea"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
     },
     {
       "path": "solutions/cncf-generated/grpc/grpc-29100-mach-o-file-but-is-an-incompatible-architecture-have-x86-64-need-arm6.json",
@@ -29201,6 +29446,60 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/open-policy-agent-opa-/open-policy-agent-opa-4277-configurable-command-flags-through-environment-variab.json",
+      "title": "open-policy-agent-opa-: Configurable command flags through environment variables",
+      "description": "Configurable command flags through environment variables. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-policy-agent-opa-",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-policy-agent-opa-"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/open-policy-agent-opa-/open-policy-agent-opa-1514-decision-log-should-include-values-from-non-determini.json",
+      "title": "open-policy-agent-opa-: decision log should include values from non-deterministic built-in functions like time.now_ns",
+      "description": "decision log should include values from non-deterministic built-in functions like time.now_ns. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-policy-agent-opa-",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-policy-agent-opa-"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/open-policy-agent-opa-/open-policy-agent-opa-3448-docs-consider-adding-validation-of-checksums-or-signa.json",
       "title": "open-policy-agent-opa-: Docs: Consider adding validation of checksums or signatures to OPA install documentation",
       "description": "Docs: Consider adding validation of checksums or signatures to OPA install documentation. Requested by 5+ users.",
@@ -32268,6 +32567,33 @@
       "path": "solutions/cncf-generated/prometheus/prometheus-2392-migrate-prometheus-apis-to-openapi-swagger.json",
       "title": "prometheus: Migrate Prometheus APIs to OpenAPI/Swagger",
       "description": "Migrate Prometheus APIs to OpenAPI/Swagger. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/prometheus/prometheus-9115-move-some-of-storage-config-from-command-line-to-config-file.json",
+      "title": "prometheus: Move some of storage config from command line to config file",
+      "description": "Move some of storage config from command line to config file. Requested by 14+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
@@ -36250,6 +36576,33 @@
         "Pod"
       ],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/woodpecker-ci/woodpecker-ci-278-allow-to-change-entrypoint-shell-for-ci-step.json",
+      "title": "woodpecker-ci: Allow to change entrypoint / shell for ci step",
+      "description": "Allow to change entrypoint / shell for ci step. Requested by 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "woodpecker-ci",
+        "community",
+        "ci-cd",
+        "feature"
+      ],
+      "cncfProjects": [
+        "woodpecker-ci"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
