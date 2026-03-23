@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-23T07:01:43.075Z",
-  "count": 1204,
+  "generatedAt": "2026-03-23T07:02:21.285Z",
+  "count": 1209,
   "missions": [
     {
       "path": "solutions/cncf-generated/antrea/antrea-1463-antrea-proxy-nodeport-service-support.json",
@@ -31877,9 +31877,148 @@
       "maturity": "graduated"
     },
     {
+      "path": "solutions/cncf-generated/prometheus/prometheus-6178-allow-filtering-label-values-api-with-matchers.json",
+      "title": "prometheus: Allow filtering label values API with matchers",
+      "description": "Allow filtering label values API with matchers. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/prometheus/prometheus-6512-checksum-mismatch-breaking-grafana-queries.json",
+      "title": "prometheus: checksum mismatch breaking Grafana queries",
+      "description": "checksum mismatch breaking Grafana queries. This issue affects 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Service",
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/prometheus/prometheus-9725-incorrect-queries-results-after-prometheus-restart-with-memory-s.json",
+      "title": "prometheus: Incorrect queries results after Prometheus restart with memory-snapshot-on-shutdown enabled",
+      "description": "Incorrect queries results after Prometheus restart with memory-snapshot-on-shutdown enabled. This issue affects 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/prometheus/prometheus-8543-load-scrape-configs-from-multiple-files.json",
       "title": "prometheus: Load scrape configs from multiple files",
       "description": "Load scrape configs from multiple files. This issue affects 70+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/prometheus/prometheus-2392-migrate-prometheus-apis-to-openapi-swagger.json",
+      "title": "prometheus: Migrate Prometheus APIs to OpenAPI/Swagger",
+      "description": "Migrate Prometheus APIs to OpenAPI/Swagger. Requested by 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "prometheus",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "prometheus"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/prometheus/prometheus-13577-support-for-ingesting-out-of-order-exemplars.json",
+      "title": "prometheus: Support for ingesting out of order exemplars",
+      "description": "Support for ingesting out of order exemplars. Requested by 11+ users.",
       "category": "cncf-generated",
       "missionClass": "solution",
       "author": "KubeStellar Bot",
