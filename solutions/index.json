@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-25T06:58:04.890Z",
-  "count": 1265,
+  "generatedAt": "2026-03-26T06:59:21.902Z",
+  "count": 1282,
   "missions": [
     {
       "path": "solutions/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -9902,6 +9902,278 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/fluent-bit/fluent-bit-593-use-system-time-offset-for-local-datetimes.json",
+      "title": "fluent-bit: Use system time offset for local datetimes",
+      "description": "Use system time offset for local datetimes. Requested by 31+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluent-bit",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "fluent-bit"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/fluentd/fluentd-4063-ci-some-tests-about-signal-handlers-sometimes-fail.json",
+      "title": "fluentd: CI: Some tests about signal handlers sometimes fail",
+      "description": "CI: Some tests about signal handlers sometimes fail. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluentd",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "fluentd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/fluentd/fluentd-554-configuration-as-yaml-json.json",
+      "title": "fluentd: Configuration as yaml/json",
+      "description": "Configuration as yaml/json. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluentd",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "fluentd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/fluentd/fluentd-3614-fluentd-in-tail-unreadable-file-causes-following-tail-of-file-to-st.json",
+      "title": "fluentd: Fluentd in_tail \"unreadable\" file causes \"following tail of <file>\" to stop and no logs pushed",
+      "description": "Fluentd in_tail \"unreadable\" file causes \"following tail of <file>\" to stop and no logs pushed. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluentd",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "fluentd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/fluentd/fluentd-4100-json-parser-plugin-can-sometimes-output-records-as-strings-rather-t.json",
+      "title": "fluentd: JSON parser plugin can sometimes output records as strings rather than `Hash`",
+      "description": "JSON parser plugin can sometimes output records as strings rather than `Hash`. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluentd",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "fluentd"
+      ],
+      "targetResourceKinds": [
+        "Configmap"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/fluentd/fluentd-1849-large-message-overflow-logic-incorrect.json",
+      "title": "fluentd: Large message overflow logic incorrect",
+      "description": "Large message overflow logic incorrect. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluentd",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "fluentd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/fluentd/fluentd-3401-memory-leak.json",
+      "title": "fluentd: Memory leak",
+      "description": "Memory leak. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluentd",
+        "graduated",
+        "observability",
+        "analyze"
+      ],
+      "cncfProjects": [
+        "fluentd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "analyze"
+      ],
+      "type": "analyze",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/fluentd/fluentd-4396-out-forward-stuck-establishing-connection.json",
+      "title": "fluentd: Out forward stuck establishing connection",
+      "description": "Out forward stuck establishing connection. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluentd",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "fluentd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/fluentd/fluentd-1578-standard-way-for-nested-record-support.json",
+      "title": "fluentd: Standard way for nested record support",
+      "description": "Standard way for nested record support. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluentd",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "fluentd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/fluentd/fluentd-2200-td-agent-v3-2-1-does-not-close-log-files-on-rotation.json",
+      "title": "fluentd: td-agent v3.2.1 does not close log files on rotation",
+      "description": "td-agent v3.2.1 does not close log files on rotation. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluentd",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "fluentd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/cncf-generated/fluid/fluid-1789-performance-not-meet-the-expectation-in-serverless-usecase.json",
@@ -33545,6 +33817,37 @@
       "qualityScore": 97
     },
     {
+      "path": "solutions/cncf-generated/pushgateway/pushgateway-19-allow-timeout-for-metrics.json",
+      "title": "pushgateway: Allow timeout for metrics",
+      "description": "Allow timeout for metrics. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "pushgateway",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "pushgateway"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Statefulset",
+        "Node"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "solutions/cncf-generated/pushgateway/pushgateway-18-consider-not-assigning-an-instance-label-if-none-is-requested.json",
       "title": "pushgateway: Consider not assigning an instance label if none is requested",
       "description": "Consider not assigning an instance label if none is requested. Community-requested feature.",
@@ -33568,6 +33871,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/pushgateway/pushgateway-27-deal-with-clash-between-pushgateway-s-own-metrics-and-pushed-metr.json",
+      "title": "pushgateway: Deal with clash between pushgateway's own metrics and pushed metrics",
+      "description": "Deal with clash between pushgateway's own metrics and pushed metrics. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "pushgateway",
+        "graduated",
+        "observability",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "pushgateway"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -33790,6 +34120,159 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "solutions/cncf-generated/rook/rook-1125-cephfs-volumes-handling-via-pvcs-dynamic-provisioning.json",
+      "title": "rook: CephFS volumes handling via PVCs (dynamic provisioning)",
+      "description": "CephFS volumes handling via PVCs (dynamic provisioning). Requested by 37+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "rook",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "rook"
+      ],
+      "targetResourceKinds": [
+        "Statefulset",
+        "Namespace",
+        "Persistentvolumeclaim"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/rook/rook-2526-could-not-access-ceph-dashboard.json",
+      "title": "rook: Could not access Ceph dashboard",
+      "description": "Could not access Ceph dashboard. Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "rook",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "rook"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/rook/rook-1659-kubelet-volume-persistent-volume-metrics-missing.json",
+      "title": "rook: kubelet_volume* / persistent volume metrics missing",
+      "description": "kubelet_volume* / persistent volume metrics missing. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "rook",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "rook"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/rook/rook-1507-on-nodelost-the-new-pod-can-t-mount-the-same-volume.json",
+      "title": "rook: On NodeLost, the new pod can't mount the same volume.",
+      "description": "On NodeLost, the new pod can't mount the same volume.. This issue affects 43+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "rook",
+        "graduated",
+        "storage",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "rook"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Namespace"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "solutions/cncf-generated/rook/rook-2240-scrubbing-is-preventing-cluster-updates.json",
+      "title": "rook: Scrubbing is preventing cluster updates",
+      "description": "Scrubbing is preventing cluster updates. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "solution",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "rook",
+        "graduated",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "rook"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Namespace",
+        "Node"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "solutions/llm-d/install-llmd-benchmark.json",
