@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-03-28T06:54:36.763Z",
+  "generatedAt": "2026-03-31T15:54:21.450Z",
   "count": 1308,
   "missions": [
     {
@@ -15672,21 +15672,13 @@
       ],
       "targetResourceKinds": [
         "Deployment",
-        "Service",
-        "Namespace"
+        "DaemonSet",
+        "Node"
       ],
       "difficulty": "beginner",
-      "issueTypes": [
-        "installation",
-        "configuration"
-      ],
+      "issueTypes": [],
       "type": "deploy",
-      "installMethods": [
-        "iso"
-      ],
-      "projectVersion": "v4.0.0",
-      "maturity": "sandbox",
-      "qualityScore": 100
+      "installMethods": []
     },
     {
       "path": "solutions/cncf-install/install-kaito.json",
