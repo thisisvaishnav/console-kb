@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-01T07:12:32.968Z",
-  "count": 1312,
+  "generatedAt": "2026-04-01T07:13:13.666Z",
+  "count": 1317,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -4482,6 +4482,36 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/cilium/cilium-34028-an-error-occurred-when-enabling-host-network-mode-through-helm.json",
+      "title": "cilium: An error occurred when enabling host network mode through Helm",
+      "description": "An error occurred when enabling host network mode through Helm. This issue affects 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cilium",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "cilium"
+      ],
+      "targetResourceKinds": [
+        "Ingress",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/cilium/cilium-20655-cfp-add-support-for-k8s-gateway-api.json",
       "title": "cilium: CFP: Add support for k8s Gateway API",
       "description": "CFP: Add support for k8s Gateway API. This issue affects 61+ users.",
@@ -5293,6 +5323,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/cloud-custodian/cloud-custodian-842-access-key-groupings.json",
+      "title": "cloud-custodian: Access Key Groupings",
+      "description": "Access Key Groupings. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cloud-custodian",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cloud-custodian"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
     },
     {
       "path": "fixes/cncf-generated/cloud-native-network/cloud-native-network-150-make-failure-message-great-again.json",
@@ -23015,6 +23072,35 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/keda/keda-4740-scaledjobs-keda-sh-crd-is-too-long.json",
+      "title": "keda: scaledjobs.keda.sh CRD is too long.",
+      "description": "scaledjobs.keda.sh CRD is too long.. This issue affects 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Customresourcedefinition"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/keda/keda-2440-support-custom-formula-for-multiple-metrics.json",
       "title": "keda: Support custom formula for multiple metrics",
       "description": "Support custom formula for multiple metrics. Requested by 12+ users.",
@@ -23070,6 +23156,37 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/keda/keda-4908-the-selenium-grid-scaler-incorrectly-scales-linux-pods-when-windows-no.json",
+      "title": "keda: The Selenium Grid Scaler incorrectly scales Linux pods when Windows nodes are present in the cluster.",
+      "description": "The Selenium Grid Scaler incorrectly scales Linux pods when Windows nodes are present in the cluster.. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keda",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "keda"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -24209,6 +24326,35 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/knative/knative-5822-support-sidecar-processes.json",
+      "title": "knative: Support Sidecar Processes",
+      "description": "Support Sidecar Processes. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
