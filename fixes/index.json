@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-01T00:17:07.308Z",
-  "count": 1308,
+  "generatedAt": "2026-04-01T07:12:04.070Z",
+  "count": 1309,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -22579,6 +22579,33 @@
         "Namespace",
         "Node"
       ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "fixes/cncf-generated/kcp/kcp-1183-apiexport-consumer-can-t-wildcard-list-watch-its-schemas-until-the-firs.json",
+      "title": "kcp: APIExport consumer can't wildcard list/watch its schemas until the first APIBinding is created",
+      "description": "APIExport consumer can't wildcard list/watch its schemas until the first APIBinding is created. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kcp",
+        "sandbox",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "kcp"
+      ],
+      "targetResourceKinds": [],
       "difficulty": "intermediate",
       "issueTypes": [
         "troubleshoot"
