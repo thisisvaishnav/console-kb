@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T16:36:59.330Z",
-  "count": 1368,
+  "generatedAt": "2026-04-03T16:38:29.923Z",
+  "count": 1373,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -5597,6 +5597,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/cloudevents/cloudevents-261-map-and-object-type-problems.json",
+      "title": "cloudevents: Map and Object type problems",
+      "description": "Map and Object type problems. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cloudevents",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cloudevents"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/cloudevents/cloudevents-565-message-producer-signature.json",
       "title": "cloudevents: Message Producer Signature",
       "description": "Message Producer Signature. Community-requested feature.",
@@ -7079,6 +7106,33 @@
         "Namespace"
       ],
       "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/coredns/coredns-2779-reverse-zones-should-be-calculated-for-the-full-cidr-range.json",
+      "title": "coredns: Reverse zones should be calculated for the full CIDR range",
+      "description": "Reverse zones should be calculated for the full CIDR range. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "coredns",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "coredns"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "troubleshoot"
       ],
@@ -32732,6 +32786,33 @@
       "maturity": "community"
     },
     {
+      "path": "fixes/cncf-generated/open-webui/open-webui-316-feat-custom-themes.json",
+      "title": "open-webui: feat: custom themes",
+      "description": "feat: custom themes. Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "open-webui",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "open-webui"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "fixes/cncf-generated/open-webui/open-webui-652-feat-delete-parts-of-conversation.json",
       "title": "open-webui: Feat: delete parts of conversation.",
       "description": "Feat: delete parts of conversation.. Requested by 13+ users.",
@@ -37431,6 +37512,33 @@
       "maturity": "community"
     },
     {
+      "path": "fixes/cncf-generated/surrealdb/surrealdb-1296-feature-refresh-token-or-refresh-session.json",
+      "title": "surrealdb: Feature:  Refresh Token? Or Refresh Session?",
+      "description": "Feature:  Refresh Token? Or Refresh Session?. This issue affects 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "surrealdb",
+        "community",
+        "multi-model-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "surrealdb"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "fixes/cncf-generated/surrealdb/surrealdb-2054-feature-indexing-query-planner.json",
       "title": "surrealdb: Feature: Indexing & Query Planner",
       "description": "Feature: Indexing & Query Planner. Requested by 12+ users.",
@@ -37450,6 +37558,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/surrealdb/surrealdb-2733-feature-rust-sdk-multiple-functions-within-a-transaction.json",
+      "title": "surrealdb: Feature: Rust SDK multiple functions within a Transaction ",
+      "description": "Feature: Rust SDK multiple functions within a Transaction . Requested by 55+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "surrealdb",
+        "community",
+        "multi-model-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "surrealdb"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
       "issueTypes": [
         "feature"
       ],
