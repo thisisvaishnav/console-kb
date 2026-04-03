@@ -1,0 +1,75 @@
+{
+  "version": "kc-mission-v1",
+  "name": "cloudevents-261-map-and-object-type-problems",
+  "missionClass": "solution",
+  "author": "KubeStellar Bot",
+  "authorGithub": "kubestellar",
+  "mission": {
+    "title": "cloudevents: Map and Object type problems",
+    "description": "Map and Object type problems. Community-requested feature.",
+    "type": "feature",
+    "status": "completed",
+    "steps": [
+      {
+        "title": "Check current cloudevents setup",
+        "description": "Verify your cloudevents version:\nCloudEvents is a specification \u2014 check your SDK version (e.g., pip show cloudevents)\nThis feature requires cloudevents as a dependency."
+      },
+      {
+        "title": "Review cloudevents configuration",
+        "description": "Review the relevant cloudevents configuration:\nThis is related to #184. Currently the spec introduces a lot of confusion around Maps and Objects when it comes to JSON.\n\nSo, the data attribute is an Object, which means it can be Map, String or Binary. Map is a map of name to Object pairs."
+      },
+      {
+        "title": "Apply the fix for Map and Object type problems",
+        "description": "The CloudEvents v1.0 specification resolved the Map and Object type confusion. Extension attribute values are now restricted to: Boolean, Integer, String, Binary, URI, URI-Reference, or Timestamp. Complex types like Map and Object should be serialized to String or Binary format before being used as extension values.\n\nSee the source issue and CloudEvents v1.0 spec for details."
+      },
+      {
+        "title": "Upgrade cloudevents to include the fix",
+        "description": "If the fix is included in a newer release, upgrade cloudevents:\nUpdate the cloudevents dependency in your project manifest to the latest version.\nSee the project's releases: https://github.com/cloudevents/spec/releases"
+      },
+      {
+        "title": "Verify the feature works",
+        "description": "Test that the new capability is working as expected.\nConfirm the feature described in \"Map and Object type problems\" is functioning correctly."
+      }
+    ],
+    "resolution": {
+      "summary": "The Map and Object type problems were addressed as part of the CloudEvents v1.0 specification. The spec clarified that extension attribute values must be one of: Boolean, Integer, String, Binary, URI, URI-Reference, or Timestamp. Complex types like Map and Object are not directly supported as extension values \u2014 they should be serialized to String or Binary if needed.",
+      "codeSnippets": []
+    }
+  },
+  "metadata": {
+    "tags": [
+      "cloudevents",
+      "graduated",
+      "app-definition",
+      "feature"
+    ],
+    "cncfProjects": [
+      "cloudevents"
+    ],
+    "targetResourceKinds": [],
+    "difficulty": "intermediate",
+    "issueTypes": [
+      "feature"
+    ],
+    "maturity": "graduated",
+    "sourceUrls": {
+      "issue": "https://github.com/cloudevents/spec/issues/261",
+      "repo": "https://github.com/cloudevents/spec"
+    },
+    "reactions": 1,
+    "comments": 25,
+    "synthesizedBy": "copilot"
+  },
+  "prerequisites": {
+    "tools": [
+      "cloudevents"
+    ],
+    "description": "CloudEvents is a specification \u2014 check your SDK version (e.g., pip show cloudevents)"
+  },
+  "security": {
+    "scannedAt": "2026-03-18T06:27:44.919Z",
+    "scannerVersion": "cncf-gen-3.0.0",
+    "sanitized": true,
+    "findings": []
+  }
+}
