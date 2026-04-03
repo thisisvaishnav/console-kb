@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T16:33:11.676Z",
-  "count": 1352,
+  "generatedAt": "2026-04-03T16:34:09.074Z",
+  "count": 1358,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -8550,6 +8550,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/envoy/envoy-2053-allow-loadable-modules.json",
+      "title": "envoy: Allow loadable (dynamic) modules",
+      "description": "Envoy now supports dynamically loading shared library modules at runtime, enabling custom filters, loggers, and extensions without recompiling Envoy. This long-requested feature (11+ users) was implem",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature",
+        "extensibility"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "ConfigMap"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/envoy/envoy-3431-client-side-alpn-support-upstream-cluster.json",
       "title": "envoy: Client side ALPN support (upstream cluster) ",
       "description": "Client side ALPN support (upstream cluster) . Requested by 10+ users.",
@@ -9596,6 +9627,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "fixes/cncf-generated/falco/falco-2074-tracking-opening-multiple-event-sources-in-the-same-falco-instance.json",
+      "title": "falco: [Tracking] Opening multiple event sources in the same Falco instance",
+      "description": "Support running multiple event sources (syscall, k8s_audit, plugins) in parallel within a single Falco instance. Previously Falco could only open one event source at a time, requiring multiple Falco i",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "falco",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "falco"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/falco/falco-1455-403-when-fetching-prebuilt-driver.json",
       "title": "falco: 403 when fetching prebuilt driver",
       "description": "403 when fetching prebuilt driver. This issue affects 5+ users.",
@@ -9702,6 +9760,37 @@
       "targetResourceKinds": [
         "Pod",
         "Namespace"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/falco/falco-1520-hostname-of-alert-origin-not-present-in-http-output.json",
+      "title": "falco: Hostname of alert origin not present in HTTP output",
+      "description": "When Falco sends alerts to falcosidekick via HTTP output, the hostname of the originating node was not included in the JSON payload. This made it impossible to identify which node generated an alert i",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "falco",
+        "graduated",
+        "security",
+        "feature",
+        "alerting"
+      ],
+      "cncfProjects": [
+        "falco"
+      ],
+      "targetResourceKinds": [
+        "Node",
+        "DaemonSet"
       ],
       "difficulty": "beginner",
       "issueTypes": [
@@ -35507,6 +35596,67 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/pushgateway/pushgateway-109-don-t-accept-timestamps-from-pushes.json",
+      "title": "pushgateway: Don't accept timestamps from pushes",
+      "description": "Prometheus Pushgateway rejects timestamps in pushed metrics to prevent misuse. Users pushing timestamps were typically trying to use Prometheus as a push-based system, which is incorrect. Since Pushga",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "pushgateway",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "pushgateway"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/pushgateway/pushgateway-97-if-parameters-include-it-will-response-code-400.json",
+      "title": "pushgateway: Label values containing '/' return HTTP 400",
+      "description": "When pushing metrics to the Pushgateway with label values containing '/', the request returns HTTP 400. This is caused by Go's URL parser unescaping %2F before the router sees the path, making it impo",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "pushgateway",
+        "graduated",
+        "observability",
+        "troubleshoot",
+        "url-encoding"
+      ],
+      "cncfProjects": [
+        "pushgateway"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/qdrant/qdrant-804-rocksdb-investigate-compression-scheme-for-rocksdb.json",
       "title": "qdrant: [rocksdb] Investigate compression scheme for RocksDB",
       "description": "[rocksdb] Investigate compression scheme for RocksDB. Community-requested feature.",
@@ -35725,6 +35875,39 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/rook/rook-1169-add-support-for-dynamically-resizing-volumes-provisioned-with-rook.json",
+      "title": "rook: Add support for dynamically resizing volumes provisioned with Rook",
+      "description": "Enable dynamic PersistentVolumeClaim (PVC) expansion for Rook-Ceph provisioned volumes. Requested by 45+ users. This feature allows resizing Ceph RBD and CephFS volumes without downtime by leveraging ",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "rook",
+        "graduated",
+        "storage",
+        "feature",
+        "ceph",
+        "pvc-expansion"
+      ],
+      "cncfProjects": [
+        "rook"
+      ],
+      "targetResourceKinds": [
+        "StorageClass",
+        "PersistentVolumeClaim",
+        "PersistentVolume"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "fixes/cncf-generated/rook/rook-6406-air-gapped-offline-installation-require-much-effort-currently.json",
