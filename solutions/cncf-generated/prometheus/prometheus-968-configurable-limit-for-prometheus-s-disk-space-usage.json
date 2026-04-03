@@ -1,0 +1,75 @@
+{
+  "version": "kc-mission-v1",
+  "name": "prometheus-968-configurable-limit-for-prometheus-s-disk-space-usage",
+  "missionClass": "solution",
+  "author": "KubeStellar Bot",
+  "authorGithub": "kubestellar",
+  "mission": {
+    "title": "prometheus: Configurable limit for Prometheus's disk space usage",
+    "description": "Configurable limit for Prometheus's disk space usage. Requested by 16+ users.",
+    "type": "feature",
+    "status": "completed",
+    "steps": [
+      {
+        "title": "Check current Prometheus version and storage configuration",
+        "description": "Verify you are running Prometheus 2.x or later, which supports size-based retention:\n```bash\nprometheus --version\n# Or in Kubernetes:\nkubectl exec -n prometheus deploy/prometheus-server -- prometheus --version\n```\nCheck current storage flags:\n```bash\nps aux | grep prometheus | grep storage\n```"
+      },
+      {
+        "title": "Configure size-based retention with --storage.tsdb.retention.size",
+        "description": "Add the `--storage.tsdb.retention.size` flag to limit disk usage. This can be combined with time-based retention:\n```bash\nprometheus \\\n  --storage.tsdb.retention.size=50GB \\\n  --storage.tsdb.retention.time=30d \\\n  --storage.tsdb.path=/var/lib/prometheus/data\n```\nSupported units: B, KB, MB, GB, TB, PB. When the limit is exceeded, Prometheus removes the oldest data blocks first."
+      },
+      {
+        "title": "Apply in Kubernetes via Helm or manifest",
+        "description": "If running in Kubernetes with the prometheus-community Helm chart:\n```bash\nhelm upgrade prometheus prometheus-community/prometheus \\\n  --set server.retention=30d \\\n  --set server.retentionSize=50GB\n```\nOr add the flags directly to the container args in your Deployment manifest."
+      },
+      {
+        "title": "Verify retention is working",
+        "description": "Check that Prometheus is respecting the size limit:\n```bash\n# Check current TSDB stats via the API\ncurl -s http://localhost:9090/api/v1/status/tsdb | python3 -m json.tool\n# Check disk usage\ndu -sh /var/lib/prometheus/data\n```\nMonitor the `prometheus_tsdb_size_retentions_total` metric to confirm size-based deletions are occurring when needed."
+      }
+    ],
+    "resolution": {
+      "summary": "Prometheus added the `--storage.tsdb.retention.size` flag (available since Prometheus 2.x) to limit disk space usage. When the configured size is exceeded, Prometheus removes the oldest data blocks. Use in combination with `--storage.tsdb.retention.time` for both time and size-based retention.",
+      "codeSnippets": [
+        "# Limit Prometheus disk usage to 50GB and retain data for 30 days\nprometheus \\\n  --storage.tsdb.retention.size=50GB \\\n  --storage.tsdb.retention.time=30d \\\n  --storage.tsdb.path=/var/lib/prometheus/data",
+        "# Kubernetes Deployment example\ncontainers:\n- name: prometheus\n  image: prom/prometheus:v2.45.0\n  args:\n    - '--config.file=/etc/prometheus/prometheus.yml'\n    - '--storage.tsdb.retention.size=50GB'\n    - '--storage.tsdb.retention.time=30d'\n    - '--storage.tsdb.path=/prometheus'"
+      ]
+    }
+  },
+  "metadata": {
+    "tags": [
+      "prometheus",
+      "graduated",
+      "observability",
+      "feature"
+    ],
+    "cncfProjects": [
+      "prometheus"
+    ],
+    "targetResourceKinds": [],
+    "difficulty": "beginner",
+    "issueTypes": [
+      "feature"
+    ],
+    "maturity": "graduated",
+    "sourceUrls": {
+      "issue": "https://github.com/prometheus/prometheus/issues/968",
+      "repo": "https://github.com/prometheus/prometheus"
+    },
+    "reactions": 16,
+    "comments": 13,
+    "synthesizedBy": "copilot"
+  },
+  "prerequisites": {
+    "kubernetes": ">=1.24",
+    "tools": [
+      "kubectl"
+    ],
+    "description": "A running Kubernetes cluster with prometheus installed or the issue environment reproducible."
+  },
+  "security": {
+    "scannedAt": "2026-03-23T06:32:25.080Z",
+    "scannerVersion": "cncf-gen-3.0.0",
+    "sanitized": true,
+    "findings": []
+  }
+}
