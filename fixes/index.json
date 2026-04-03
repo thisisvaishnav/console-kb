@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T16:45:22.984Z",
-  "count": 1411,
+  "generatedAt": "2026-04-03T16:53:09.629Z",
+  "count": 1416,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -4242,6 +4242,35 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/cert-manager/cert-manager-6783-add-support-for-passwordless-pkcs12-keystore.json",
+      "title": "cert-manager: Add support for passwordless pkcs12 keystore",
+      "description": "Add support for passwordless pkcs12 keystore. Requested by 34+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cert-manager",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cert-manager"
+      ],
+      "targetResourceKinds": [
+        "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/cert-manager/cert-manager-4821-allow-ingressclassname-to-be-set-for-http01-solver-ingresses.json",
       "title": "cert-manager: Allow `ingressClassName` to be set for HTTP01 solver ingresses.",
       "description": "Allow `ingressClassName` to be set for HTTP01 solver ingresses.. This issue affects 71+ users.",
@@ -8336,6 +8365,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "fixes/cncf-generated/dex/dex-376-userinfo-endpoint.json",
+      "title": "dex: UserInfo endpoint",
+      "description": "UserInfo endpoint. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dex",
+        "sandbox",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dex"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "fixes/cncf-generated/dify/dify-23981-dify-trigger-event-driven-workflow-foundation.json",
       "title": "dify: [☂️] Dify Trigger — Event-driven Workflow Foundation",
       "description": "[☂️] Dify Trigger — Event-driven Workflow Foundation. Requested by 17+ users.",
@@ -10570,6 +10626,35 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/flagger/flagger-1118-keda-support.json",
+      "title": "flagger: Keda Support",
+      "description": "Keda Support. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "flagger",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "flagger"
+      ],
+      "targetResourceKinds": [
+        "Job"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -13726,6 +13811,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/helm/helm-9136-nested-null-values-do-not-remove-keys-from-sub-charts.json",
+      "title": "helm: Nested `null` values do not remove keys from sub-charts",
+      "description": "Nested `null` values do not remove keys from sub-charts. This issue affects 84+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "helm",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "helm"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "expert",
       "issueTypes": [
         "troubleshoot"
       ],
@@ -27413,6 +27525,35 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/kubeflow/kubeflow-3362-support-theia-or-microsoft-visual-studio-code.json",
+      "title": "kubeflow: Support theia or microsoft visual studio code",
+      "description": "Support theia or microsoft visual studio code. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "kubeflow",
+        "incubating",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "kubeflow"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "incubating"
     },
