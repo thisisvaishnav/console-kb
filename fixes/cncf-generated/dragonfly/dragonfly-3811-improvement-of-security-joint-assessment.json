@@ -1,0 +1,72 @@
+{
+  "version": "kc-mission-v1",
+  "name": "dragonfly-3811-improvement-of-security-joint-assessment",
+  "missionClass": "fixer",
+  "author": "KubeStellar Bot",
+  "authorGithub": "kubestellar",
+  "mission": {
+    "title": "dragonfly: Improvement of Security Joint Assessment",
+    "description": "Improvement of Security Joint Assessment. Community-requested feature.",
+    "type": "feature",
+    "status": "completed",
+    "steps": [
+      {
+        "title": "Review the CNCF TAG Security Joint Assessment",
+        "description": "Read the joint assessment document and identified findings:\n- TAG Security assessment PR: https://github.com/cncf/tag-security/pull/1443\n- TOC graduation tracking: https://github.com/cncf/toc/issues/1358\n\nKey areas reviewed: trust assumptions between components, metadata signing, transport security, and supply chain integrity."
+      },
+      {
+        "title": "Audit trust boundaries between Dragonfly components",
+        "description": "Review trust relationships between Dragonfly Manager, Scheduler, Seed Peer, and Dfdaemon. The assessment identified that components overly trust each other. Verify that:\n- Communication between components uses mTLS\n- Metadata (content hashes, task info) is signed to ensure non-repudiation\n- Each component validates the identity of peers before accepting data"
+      },
+      {
+        "title": "Implement signed metadata and hash verification",
+        "description": "Address the finding that secure hashes are only protected by transport-layer security. Ensure content integrity by:\n- Signing metadata from the Manager so clients can verify provenance\n- Adding cryptographic signatures to task and piece hash information\n- Implementing verification at each hop in the P2P distribution chain"
+      },
+      {
+        "title": "Verify security improvements",
+        "description": "Confirm that security improvements from the joint assessment are in place:\n- Check mTLS is enabled between all components\n- Verify signed metadata is being validated\n- Review Dragonfly's security documentation for updated threat model\n- Confirm the project's graduation criteria for security are met"
+      }
+    ],
+    "resolution": {
+      "summary": "The Dragonfly project completed its CNCF TAG Security Joint Assessment, addressing identified security concerns including trust assumptions, signed metadata, and supply chain integrity. Improvements were tracked and implemented across multiple PRs as part of the project's path to CNCF graduation.",
+      "codeSnippets": []
+    }
+  },
+  "metadata": {
+    "tags": [
+      "dragonfly",
+      "graduated",
+      "app-definition",
+      "feature"
+    ],
+    "cncfProjects": [
+      "dragonfly"
+    ],
+    "targetResourceKinds": [],
+    "difficulty": "intermediate",
+    "issueTypes": [
+      "feature"
+    ],
+    "maturity": "graduated",
+    "sourceUrls": {
+      "issue": "https://github.com/dragonflyoss/dragonfly/issues/3811",
+      "repo": "https://github.com/dragonflyoss/dragonfly"
+    },
+    "reactions": 0,
+    "comments": 10,
+    "synthesizedBy": "copilot"
+  },
+  "prerequisites": {
+    "kubernetes": ">=1.24",
+    "tools": [
+      "kubectl"
+    ],
+    "description": "A running Kubernetes cluster with dragonfly installed or the issue environment reproducible."
+  },
+  "security": {
+    "scannedAt": "2026-04-02T06:32:50.641Z",
+    "scannerVersion": "cncf-gen-3.0.0",
+    "sanitized": true,
+    "findings": []
+  }
+}
