@@ -1,0 +1,81 @@
+{
+  "version": "kc-mission-v1",
+  "name": "rook-1169-add-support-for-dynamically-resizing-volumes-provisioned-with-rook",
+  "missionClass": "fixer",
+  "author": "KubeStellar Bot",
+  "authorGithub": "kubestellar",
+  "mission": {
+    "title": "rook: Add support for dynamically resizing volumes provisioned with Rook",
+    "description": "Enable dynamic PersistentVolumeClaim (PVC) expansion for Rook-Ceph provisioned volumes. Requested by 45+ users. This feature allows resizing Ceph RBD and CephFS volumes without downtime by leveraging the Kubernetes CSI volume expansion capability.",
+    "type": "feature",
+    "status": "completed",
+    "steps": [
+      {
+        "title": "Verify Rook-Ceph deployment and version",
+        "description": "Confirm you are running Rook v1.2+ with ceph-csi, which supports volume expansion:\n```bash\nkubectl get pods -n rook-ceph -l app=rook-ceph-operator\nkubectl get cephcluster -n rook-ceph -o jsonpath='{.items[0].status.ceph.version}'\n```\nVolume expansion requires Rook v1.2+ and Kubernetes v1.16+ (where PVC expansion is GA)."
+      },
+      {
+        "title": "Enable allowVolumeExpansion on your StorageClass",
+        "description": "The key to enabling dynamic volume resizing is setting `allowVolumeExpansion: true` on your Rook-Ceph StorageClass:\n```bash\nkubectl get storageclass rook-ceph-block -o yaml\n```\nIf `allowVolumeExpansion` is not set or is `false`, patch it:\n```bash\nkubectl patch storageclass rook-ceph-block -p '{\"allowVolumeExpansion\": true}'\n```\nFor new StorageClasses, include `allowVolumeExpansion: true` in the spec."
+      },
+      {
+        "title": "Resize a PersistentVolumeClaim",
+        "description": "To expand an existing PVC, edit the `spec.resources.requests.storage` field:\n```bash\nkubectl patch pvc <pvc-name> -n <namespace> -p '{\"spec\": {\"resources\": {\"requests\": {\"storage\": \"20Gi\"}}}}'\n```\nFor Ceph RBD (block storage), the resize happens online — no pod restart needed. For CephFS, the resize is also online. The CSI driver handles the underlying Ceph volume expansion automatically."
+      },
+      {
+        "title": "Verify the volume was resized",
+        "description": "Check that the PVC and PV reflect the new size:\n```bash\nkubectl get pvc <pvc-name> -n <namespace> -o jsonpath='{.status.capacity.storage}'\nkubectl get pv $(kubectl get pvc <pvc-name> -n <namespace> -o jsonpath='{.spec.volumeName}') -o jsonpath='{.spec.capacity.storage}'\n```\nBoth should show the new size. If the PVC shows `FileSystemResizePending` condition, the filesystem resize will complete when the pod using it restarts."
+      }
+    ],
+    "resolution": {
+      "summary": "Dynamic volume resizing for Rook-Ceph volumes is supported since Rook v1.2+ via the ceph-csi driver. Set `allowVolumeExpansion: true` on your StorageClass, then patch the PVC's `spec.resources.requests.storage` to the desired size. Ceph RBD and CephFS both support online expansion.",
+      "codeSnippets": [
+        "kubectl patch storageclass rook-ceph-block -p '{\"allowVolumeExpansion\": true}'",
+        "kubectl patch pvc <pvc-name> -n <namespace> -p '{\"spec\": {\"resources\": {\"requests\": {\"storage\": \"20Gi\"}}}}'"
+      ]
+    }
+  },
+  "metadata": {
+    "tags": [
+      "rook",
+      "graduated",
+      "storage",
+      "feature",
+      "ceph",
+      "pvc-expansion"
+    ],
+    "cncfProjects": [
+      "rook"
+    ],
+    "targetResourceKinds": [
+      "StorageClass",
+      "PersistentVolumeClaim",
+      "PersistentVolume"
+    ],
+    "difficulty": "intermediate",
+    "issueTypes": [
+      "feature"
+    ],
+    "maturity": "graduated",
+    "sourceUrls": {
+      "issue": "https://github.com/rook/rook/issues/1169",
+      "repo": "https://github.com/rook/rook"
+    },
+    "reactions": 45,
+    "comments": 36,
+    "synthesizedBy": "copilot"
+  },
+  "prerequisites": {
+    "kubernetes": ">=1.16",
+    "tools": [
+      "kubectl"
+    ],
+    "description": "A running Kubernetes cluster with Rook-Ceph v1.2+ installed. The ceph-csi driver must be used (default in Rook v1.1+)."
+  },
+  "security": {
+    "scannedAt": "2026-04-03T06:34:32.649Z",
+    "scannerVersion": "cncf-gen-3.0.0",
+    "sanitized": true,
+    "findings": []
+  }
+}
