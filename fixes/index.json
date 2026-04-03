@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T06:27:20.486Z",
-  "count": 1327,
+  "generatedAt": "2026-04-03T16:35:08.570Z",
+  "count": 1360,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -118,6 +118,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/alertmanager/alertmanager-1682-allow-negative-re-matching-in-silences.json",
+      "title": "alertmanager: Allow negative (re) matching in silences",
+      "description": "Allow negative (re) matching in silences. Requested by 19+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-1903-expose-alert-fingerprint-in-notification-template.json",
       "title": "alertmanager: Expose alert fingerprint in notification template",
       "description": "Expose alert fingerprint in notification template. Requested by 6+ users.",
@@ -170,6 +197,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/alertmanager/alertmanager-4513-jira-integration-deprecated-endpoints.json",
+      "title": "alertmanager: Jira Integration deprecated Endpoints",
+      "description": "Jira Integration deprecated Endpoints. This issue affects 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "upgrade"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "upgrade"
+      ],
+      "type": "upgrade",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -249,6 +303,33 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/alertmanager/alertmanager-979-querying-alert-state-silence-inhibition-lags-behind-by-up-to-gr.json",
+      "title": "alertmanager: Querying alert state (silence/inhibition) lags behind (by up to `group_interval`)",
+      "description": "Querying alert state (silence/inhibition) lags behind (by up to `group_interval`). Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "alertmanager",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "alertmanager"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
       "issueTypes": [
         "feature"
       ],
@@ -8386,6 +8467,62 @@
       "maturity": "incubating"
     },
     {
+      "path": "fixes/cncf-generated/envoy/envoy-11532-bug-client-x-request-id-mangled-by-requestidextension-settracestatus.json",
+      "title": "envoy: [bug] Client x-request-id Mangled by RequestIdExtension::setTraceStatus",
+      "description": "[bug] Client x-request-id Mangled by RequestIdExtension::setTraceStatus. This issue affects 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/envoy/envoy-22679-add-support-for-connect-rpc-protocol.json",
+      "title": "envoy: Add support for Connect RPC protocol",
+      "description": "Add support for Connect RPC protocol. Requested by 16+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [
+        "Deployment"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/envoy/envoy-3732-add-x-forwarded-port-header.json",
       "title": "envoy: Add X-Forwarded-Port header",
       "description": "Add X-Forwarded-Port header. Requested by 12+ users.",
@@ -8405,6 +8542,37 @@
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/envoy/envoy-2053-allow-loadable-modules.json",
+      "title": "envoy: Allow loadable (dynamic) modules",
+      "description": "Envoy now supports dynamically loading shared library modules at runtime, enabling custom filters, loggers, and extensions without recompiling Envoy. This long-requested feature (11+ users) was implem",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature",
+        "extensibility"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "ConfigMap"
+      ],
+      "difficulty": "advanced",
       "issueTypes": [
         "feature"
       ],
@@ -8938,9 +9106,63 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/etcd/etcd-13192-etcd-client-v3-v3-5-0-sends-invalid-authority-header-field-value.json",
+      "title": "etcd: etcd client v3 v3.5.0 sends invalid `:authority` header field value",
+      "description": "etcd client v3 v3.5.0 sends invalid `:authority` header field value. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/etcd/etcd-11321-etcd-cluster-fails-to-start-when-using-dns-srv-discovery-with-non-tls.json",
       "title": "etcd: etcd cluster fails to start when using DNS SRV discovery with non-TLS",
       "description": "etcd cluster fails to start when using DNS SRV discovery with non-TLS. This issue affects 8+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/etcd/etcd-9949-etcd-go-client-fails-when-querying-a-cluster-with-a-down-node.json",
+      "title": "etcd: etcd go client fails when querying a cluster with a down node",
+      "description": "etcd go client fails when querying a cluster with a down node. This issue affects 19+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -9018,6 +9240,36 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/etcd/etcd-10289-grpc-code-unavailable-instead-canceled.json",
+      "title": "etcd: gRPC code Unavailable instead Canceled",
+      "description": "gRPC code Unavailable instead Canceled. Requested by 13+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "etcd",
+        "graduated",
+        "orchestration",
+        "feature"
+      ],
+      "cncfProjects": [
+        "etcd"
+      ],
+      "targetResourceKinds": [
+        "Job",
+        "Service"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -9375,6 +9627,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "fixes/cncf-generated/falco/falco-2074-tracking-opening-multiple-event-sources-in-the-same-falco-instance.json",
+      "title": "falco: [Tracking] Opening multiple event sources in the same Falco instance",
+      "description": "Support running multiple event sources (syscall, k8s_audit, plugins) in parallel within a single Falco instance. Previously Falco could only open one event source at a time, requiring multiple Falco i",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "falco",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "falco"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/falco/falco-1455-403-when-fetching-prebuilt-driver.json",
       "title": "falco: 403 when fetching prebuilt driver",
       "description": "403 when fetching prebuilt driver. This issue affects 5+ users.",
@@ -9491,6 +9770,37 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/falco/falco-1520-hostname-of-alert-origin-not-present-in-http-output.json",
+      "title": "falco: Hostname of alert origin not present in HTTP output",
+      "description": "When Falco sends alerts to falcosidekick via HTTP output, the hostname of the originating node was not included in the JSON payload. This made it impossible to identify which node generated an alert i",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "falco",
+        "graduated",
+        "security",
+        "feature",
+        "alerting"
+      ],
+      "cncfProjects": [
+        "falco"
+      ],
+      "targetResourceKinds": [
+        "Node",
+        "DaemonSet"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/falco/falco-3643-memory-leak-in-modern-bpf-driver-on-bottlerocket-os-causing-frequent-.json",
       "title": "falco: Memory leak in modern-bpf driver on Bottlerocket OS causing frequent OOMKills",
       "description": "Memory leak in modern-bpf driver on Bottlerocket OS causing frequent OOMKills. This issue affects 7+ users.",
@@ -9516,6 +9826,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/falco/falco-2181-migrate-falco-image-from-debian-to-distroless.json",
+      "title": "falco: Migrate Falco image from debian to distroless",
+      "description": "Migrate Falco image from debian to distroless. Requested by 7+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "falco",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "falco"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated"
     },
@@ -9568,6 +9905,35 @@
       ],
       "targetResourceKinds": [
         "Pod",
+        "Node"
+      ],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/falco/falco-1589-support-arm64-architecture-in-dockerhub.json",
+      "title": "falco: Support arm64 architecture in dockerhub",
+      "description": "Support arm64 architecture in dockerhub. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "falco",
+        "graduated",
+        "security",
+        "feature"
+      ],
+      "cncfProjects": [
+        "falco"
+      ],
+      "targetResourceKinds": [
         "Node"
       ],
       "difficulty": "advanced",
@@ -10495,6 +10861,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/fluent-bit/fluent-bit-7515-support-key-format-strings-for-azure-blob-as-supported-on-amazon.json",
+      "title": "fluent-bit: Support key format strings for Azure Blob as supported on Amazon S3",
+      "description": "Support key format strings for Azure Blob as supported on Amazon S3. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "fluent-bit",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "fluent-bit"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/fluent-bit/fluent-bit-4337-unable-to-automatically-create-a-kafka-topic-longer-than-64-char.json",
       "title": "fluent-bit: Unable to automatically create a Kafka topic longer than 64 characters",
       "description": "Unable to automatically create a Kafka topic longer than 64 characters. This issue affects 8+ users.",
@@ -11119,9 +11512,144 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/gitea/gitea-3480-ability-to-automatically-push-to-remote-mirror-repository.json",
+      "title": "gitea: Ability to automatically push to remote mirror repository ",
+      "description": "Ability to automatically push to remote mirror repository . Requested by 150+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "gitea",
+        "community",
+        "git-hosting",
+        "feature"
+      ],
+      "cncfProjects": [
+        "gitea"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "fixes/cncf-generated/gitea/gitea-23668-actions-manually-trigger-a-workflow-action.json",
       "title": "gitea: Actions - Manually trigger a workflow/action",
       "description": "Actions - Manually trigger a workflow/action. Requested by 176+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "gitea",
+        "community",
+        "git-hosting",
+        "feature"
+      ],
+      "cncfProjects": [
+        "gitea"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/gitea/gitea-13539-an-internal-ci-cd-system-compatible-with-github-actions-workflow-yam.json",
+      "title": "gitea: An internal CI/CD system compatible with Github actions workflow yaml syntax, action yaml syntax and most action plugins",
+      "description": "An internal CI/CD system compatible with Github actions workflow yaml syntax, action yaml syntax and most action plugins. Requested by 266+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "gitea",
+        "community",
+        "git-hosting",
+        "feature"
+      ],
+      "cncfProjects": [
+        "gitea"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/gitea/gitea-847-contributors-graph.json",
+      "title": "gitea: Contributors graph",
+      "description": "Contributors graph. Requested by 60+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "gitea",
+        "community",
+        "git-hosting",
+        "feature"
+      ],
+      "cncfProjects": [
+        "gitea"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/gitea/gitea-2908-hide-users-from-public-view.json",
+      "title": "gitea: Hide users from public view",
+      "description": "Hide users from public view. Requested by 46+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "gitea",
+        "community",
+        "git-hosting",
+        "feature"
+      ],
+      "cncfProjects": [
+        "gitea"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/gitea/gitea-2316-integrate-or-interface-docker-registry.json",
+      "title": "gitea: Integrate or Interface Docker Registry",
+      "description": "Integrate or Interface Docker Registry. Requested by 118+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -13687,7 +14215,7 @@
     {
       "path": "fixes/platform-install/platform-cluster-api.json",
       "title": "Install and Configure Cluster API (CAPI)",
-      "description": "Cluster API (CAPI) is a Kubernetes operator that provides declarative APIs and tooling to simplify the provisioning, upgrading, and operation of multiple Kubernetes clusters. It is particularly useful",
+      "description": "Cluster API (CAPI) is a Kubernetes operator that provides declarative APIs and tooling to simplify the provisioning, upgrading, and operation of multiple Kubernetes clusters. It is installed via the c",
       "category": "platform-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -13704,7 +14232,9 @@
       "targetResourceKinds": [
         "Namespace",
         "Deployment",
-        "Service"
+        "Service",
+        "Cluster",
+        "Machine"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -13713,7 +14243,7 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "helm"
+        "cli"
       ],
       "qualityScore": 100
     },
@@ -15818,7 +16348,7 @@
     {
       "path": "fixes/platform-install/platform-kagenti.json",
       "title": "Install and Configure Kagenti",
-      "description": "Kagenti is a cloud-native middleware designed for deploying and orchestrating AI agents with a focus on security and scalability. It simplifies the deployment complexity and operational overhead assoc",
+      "description": "Kagenti is a cloud-native middleware for deploying and orchestrating AI agents via A2A and MCP protocols on Kubernetes. It provides a standardized approach to agent communication, security, and manage",
       "category": "platform-install",
       "missionClass": "install",
       "author": "KubeStellar Bot",
@@ -15844,7 +16374,6 @@
       ],
       "type": "deploy",
       "installMethods": [
-        "cli",
         "helm"
       ],
       "qualityScore": 100
@@ -24244,6 +24773,33 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/knative-eventing/knative-eventing-2996-trigger-without-a-broker-does-not-correctly-reflect-ready-.json",
+      "title": "knative-eventing: Trigger without a broker does not correctly reflect ready status",
+      "description": "Trigger without a broker does not correctly reflect ready status. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative-eventing",
+        "graduated",
+        "app-definition",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "knative-eventing"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/knative-eventing/knative-eventing-2271-upgrade-tests-for-knative-eventing.json",
       "title": "knative-eventing: Upgrade tests for knative eventing",
       "description": "Upgrade tests for knative eventing. Community-requested feature.",
@@ -28753,6 +29309,36 @@
       "maturity": "community"
     },
     {
+      "path": "fixes/cncf-generated/litellm/litellm-24512-security-critical-malicious-litellm-init-pth-in-litellm-1-82-8-cre.json",
+      "title": "litellm: [Security]: CRITICAL: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
+      "description": "[Security]: CRITICAL: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer. This issue affects 1108+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "litellm",
+        "community",
+        "llm-gateway",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "litellm"
+      ],
+      "targetResourceKinds": [
+        "Service",
+        "Secret"
+      ],
+      "difficulty": "expert",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "fixes/cncf-generated/litmus/litmus-4532-failed-to-get-argo-pod-logs-is-not-intuitive.json",
       "title": "litmus: \"Failed to get argo pod logs\" is not intuitive",
       "description": "\"Failed to get argo pod logs\" is not intuitive. Requested by 5+ users.",
@@ -30539,9 +31125,171 @@
       "maturity": "incubating"
     },
     {
+      "path": "fixes/cncf-generated/netdata/netdata-2423-feature-timescaledb-support.json",
+      "title": "netdata: [Feature]TimescaleDB support",
+      "description": "[Feature]TimescaleDB support. Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "netdata",
+        "community",
+        "monitoring",
+        "feature"
+      ],
+      "cncfProjects": [
+        "netdata"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/netdata/netdata-8906-building-packages-for-ubuntu-20-04-focal.json",
+      "title": "netdata: Building packages for Ubuntu 20.04 (Focal)",
+      "description": "Building packages for Ubuntu 20.04 (Focal). Requested by 14+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "netdata",
+        "community",
+        "monitoring",
+        "feature"
+      ],
+      "cncfProjects": [
+        "netdata"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/netdata/netdata-5897-collect-mongodb-sharding-metrics.json",
+      "title": "netdata: Collect MongoDB sharding metrics",
+      "description": "Collect MongoDB sharding metrics. Requested by 9+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "netdata",
+        "community",
+        "monitoring",
+        "feature"
+      ],
+      "cncfProjects": [
+        "netdata"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "fixes/cncf-generated/netdata/netdata-3520-kubernetes-monitoring-improvement-ideas.json",
       "title": "netdata: Kubernetes Monitoring Improvement Ideas",
       "description": "Kubernetes Monitoring Improvement Ideas. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "netdata",
+        "community",
+        "monitoring",
+        "feature"
+      ],
+      "cncfProjects": [
+        "netdata"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/netdata/netdata-3729-monitor-application-log-files.json",
+      "title": "netdata: Monitor application log files",
+      "description": "Monitor application log files. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "netdata",
+        "community",
+        "monitoring",
+        "feature"
+      ],
+      "cncfProjects": [
+        "netdata"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/netdata/netdata-4852-supervisord-monitoring.json",
+      "title": "netdata: Supervisord monitoring",
+      "description": "Supervisord monitoring. Requested by 11+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "netdata",
+        "community",
+        "monitoring",
+        "feature"
+      ],
+      "cncfProjects": [
+        "netdata"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/netdata/netdata-4888-vsphere-monitoring.json",
+      "title": "netdata: Vsphere monitoring",
+      "description": "Vsphere monitoring. Requested by 19+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -34919,6 +35667,67 @@
       "maturity": "graduated"
     },
     {
+      "path": "fixes/cncf-generated/pushgateway/pushgateway-109-don-t-accept-timestamps-from-pushes.json",
+      "title": "pushgateway: Don't accept timestamps from pushes",
+      "description": "Prometheus Pushgateway rejects timestamps in pushed metrics to prevent misuse. Users pushing timestamps were typically trying to use Prometheus as a push-based system, which is incorrect. Since Pushga",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "pushgateway",
+        "graduated",
+        "observability",
+        "feature"
+      ],
+      "cncfProjects": [
+        "pushgateway"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/pushgateway/pushgateway-97-if-parameters-include-it-will-response-code-400.json",
+      "title": "pushgateway: Label values containing '/' return HTTP 400",
+      "description": "When pushing metrics to the Pushgateway with label values containing '/', the request returns HTTP 400. This is caused by Go's URL parser unescaping %2F before the router sees the path, making it impo",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "pushgateway",
+        "graduated",
+        "observability",
+        "troubleshoot",
+        "url-encoding"
+      ],
+      "cncfProjects": [
+        "pushgateway"
+      ],
+      "targetResourceKinds": [
+        "Deployment",
+        "Service"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/qdrant/qdrant-804-rocksdb-investigate-compression-scheme-for-rocksdb.json",
       "title": "qdrant: [rocksdb] Investigate compression scheme for RocksDB",
       "description": "[rocksdb] Investigate compression scheme for RocksDB. Community-requested feature.",
@@ -35137,6 +35946,39 @@
       "type": "troubleshoot",
       "installMethods": [],
       "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/rook/rook-1169-add-support-for-dynamically-resizing-volumes-provisioned-with-rook.json",
+      "title": "rook: Add support for dynamically resizing volumes provisioned with Rook",
+      "description": "Enable dynamic PersistentVolumeClaim (PVC) expansion for Rook-Ceph provisioned volumes. Requested by 45+ users. This feature allows resizing Ceph RBD and CephFS volumes without downtime by leveraging ",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "rook",
+        "graduated",
+        "storage",
+        "feature",
+        "ceph",
+        "pvc-expansion"
+      ],
+      "cncfProjects": [
+        "rook"
+      ],
+      "targetResourceKinds": [
+        "StorageClass",
+        "PersistentVolumeClaim",
+        "PersistentVolume"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
     },
     {
       "path": "fixes/cncf-generated/rook/rook-6406-air-gapped-offline-installation-require-much-effort-currently.json",
@@ -36343,6 +37185,33 @@
       "maturity": "incubating"
     },
     {
+      "path": "fixes/cncf-generated/surrealdb/surrealdb-2750-bug-abnormal-memory-usage.json",
+      "title": "surrealdb: Bug: Abnormal memory usage",
+      "description": "Bug: Abnormal memory usage. This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "surrealdb",
+        "community",
+        "multi-model-db",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "surrealdb"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
       "path": "fixes/cncf-generated/surrealdb/surrealdb-4041-bug-rust-fails-to-build-surrealdb.json",
       "title": "surrealdb: Bug: Rust fails to build surrealdb",
       "description": "Bug: Rust fails to build surrealdb. This issue affects 6+ users.",
@@ -36366,6 +37235,60 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/surrealdb/surrealdb-1810-bug-very-slow-insert-of-large-json-data-500kb.json",
+      "title": "surrealdb: Bug: very slow insert of large json data (~500kb)",
+      "description": "Bug: very slow insert of large json data (~500kb). This issue affects 10+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "surrealdb",
+        "community",
+        "multi-model-db",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "surrealdb"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/surrealdb/surrealdb-2054-feature-indexing-query-planner.json",
+      "title": "surrealdb: Feature: Indexing & Query Planner",
+      "description": "Feature: Indexing & Query Planner. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "surrealdb",
+        "community",
+        "multi-model-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "surrealdb"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "community"
     },
