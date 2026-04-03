@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T16:38:29.923Z",
-  "count": 1373,
+  "generatedAt": "2026-04-03T16:39:08.214Z",
+  "count": 1378,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -5516,9 +5516,63 @@
       "maturity": "sandbox"
     },
     {
+      "path": "fixes/cncf-generated/cloudevents/cloudevents-1276-asyncapi-v3-trait-for-cloudevents.json",
+      "title": "cloudevents: AsyncAPI v3 Trait for CloudEvents",
+      "description": "AsyncAPI v3 Trait for CloudEvents. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cloudevents",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cloudevents"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/cloudevents/cloudevents-25-causation-id-context-attribute.json",
       "title": "cloudevents: causation-id context attribute",
       "description": "causation-id context attribute. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "cloudevents",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "cloudevents"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/cloudevents/cloudevents-209-event-keys.json",
+      "title": "cloudevents: Event keys",
+      "description": "Event keys. Community-requested feature.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -24796,6 +24850,35 @@
       "maturity": "sandbox"
     },
     {
+      "path": "fixes/cncf-generated/knative-eventing/knative-eventing-4481-apiserversource-should-be-able-to-watch-resources-in-other.json",
+      "title": "knative-eventing: ApiServerSource should be able to watch resources in other namespaces besides the one in which it resides",
+      "description": "ApiServerSource should be able to watch resources in other namespaces besides the one in which it resides. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative-eventing",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative-eventing"
+      ],
+      "targetResourceKinds": [
+        "Namespace"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
       "path": "fixes/cncf-generated/knative-eventing/knative-eventing-8437-eks-use-aws-web-identity-token-for-sqs-queue.json",
       "title": "knative-eventing: eks use aws web identity token for SQS queue",
       "description": "eks use aws web identity token for SQS queue. Community-requested feature.",
@@ -25044,6 +25127,37 @@
         "Configmap",
         "Service",
         "Secret"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated"
+    },
+    {
+      "path": "fixes/cncf-generated/knative/knative-4190-feature-request-support-downward-api.json",
+      "title": "knative: Feature Request: Support Downward API",
+      "description": "Feature Request: Support Downward API. Requested by 6+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "knative",
+        "graduated",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "knative"
+      ],
+      "targetResourceKinds": [
+        "Pod",
+        "Deployment",
+        "Namespace"
       ],
       "difficulty": "intermediate",
       "issueTypes": [
@@ -37515,6 +37629,33 @@
       "path": "fixes/cncf-generated/surrealdb/surrealdb-1296-feature-refresh-token-or-refresh-session.json",
       "title": "surrealdb: Feature:  Refresh Token? Or Refresh Session?",
       "description": "Feature:  Refresh Token? Or Refresh Session?. This issue affects 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "surrealdb",
+        "community",
+        "multi-model-db",
+        "feature"
+      ],
+      "cncfProjects": [
+        "surrealdb"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/surrealdb/surrealdb-1445-feature-add-lightweight-database-backend-for-embedded-use.json",
+      "title": "surrealdb: Feature: Add lightweight database backend for embedded use",
+      "description": "Feature: Add lightweight database backend for embedded use. Requested by 10+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
