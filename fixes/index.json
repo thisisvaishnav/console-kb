@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-03T16:53:09.629Z",
-  "count": 1416,
+  "generatedAt": "2026-04-03T16:54:55.256Z",
+  "count": 1422,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -8469,6 +8469,33 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "community"
+    },
+    {
+      "path": "fixes/cncf-generated/dify/dify-12354-enhancing-workflow-with-loop-and-sleep-nodes-for-repeated-execution-a.json",
+      "title": "dify: Enhancing Workflow with Loop and Sleep Nodes for Repeated Execution and Interval Control",
+      "description": "Enhancing Workflow with Loop and Sleep Nodes for Repeated Execution and Interval Control. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dify",
+        "community",
+        "ai-app",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dify"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "community"
     },
@@ -34916,6 +34943,33 @@
       "maturity": "sandbox"
     },
     {
+      "path": "fixes/cncf-generated/opentofu/opentofu-1042-allow-evaluation-of-constant-locals-and-variables-prior-to-module-.json",
+      "title": "opentofu: Allow evaluation of constant locals and variables prior to module configuration",
+      "description": "Allow evaluation of constant locals and variables prior to module configuration. Requested by 150+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentofu",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentofu"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "fixes/cncf-generated/opentofu/opentofu-1336-allow-variable-validation-conditions-to-refer-to-other-variables.json",
       "title": "opentofu: Allow Variable Validation Conditions to Refer to Other Variables",
       "description": "Allow Variable Validation Conditions to Refer to Other Variables. Requested by 54+ users.",
@@ -35162,6 +35216,33 @@
       "path": "fixes/cncf-generated/opentofu/opentofu-1483-support-concurrent-access-to-provider-plugin-cache.json",
       "title": "opentofu: Support Concurrent Access to Provider Plugin Cache",
       "description": "Support Concurrent Access to Provider Plugin Cache. Requested by 28+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "opentofu",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "opentofu"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "advanced",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "fixes/cncf-generated/opentofu/opentofu-308-support-oci-registries-for-provider-and-module-distribution.json",
+      "title": "opentofu: Support OCI registries for provider and module distribution.",
+      "description": "Support OCI registries for provider and module distribution.. Requested by 172+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
@@ -40848,6 +40929,35 @@
       "maturity": "community"
     },
     {
+      "path": "fixes/cncf-generated/virtual-kubelet/virtual-kubelet-170-feature-implement-port-forwarding.json",
+      "title": "virtual-kubelet: Feature: Implement Port forwarding",
+      "description": "Feature: Implement Port forwarding. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "virtual-kubelet",
+        "sandbox",
+        "app-definition",
+        "feature"
+      ],
+      "cncfProjects": [
+        "virtual-kubelet"
+      ],
+      "targetResourceKinds": [
+        "Pod"
+      ],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
       "path": "fixes/cncf-generated/visual-studio-code-kubernetes-tools/visual-studio-code-kubernetes-tools-669-replicaset-snippet.json",
       "title": "visual-studio-code-kubernetes-tools: ReplicaSet snippet",
       "description": "ReplicaSet snippet. Requested by 2+ users.",
@@ -40873,6 +40983,33 @@
         "feature"
       ],
       "type": "feature",
+      "installMethods": [],
+      "maturity": "sandbox"
+    },
+    {
+      "path": "fixes/cncf-generated/visual-studio-code-kubernetes-tools/visual-studio-code-kubernetes-tools-1025-unable-to-copy-from-logs.json",
+      "title": "visual-studio-code-kubernetes-tools: Unable to copy from Logs",
+      "description": "Unable to copy from Logs. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "visual-studio-code-kubernetes-tools",
+        "sandbox",
+        "orchestration",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "visual-studio-code-kubernetes-tools"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
       "installMethods": [],
       "maturity": "sandbox"
     },
@@ -41580,6 +41717,33 @@
       "type": "feature",
       "installMethods": [],
       "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/wasmedge-runtime/wasmedge-runtime-3185-bug-uninstaller-not-working-when-the-bash-profile-is-not-a.json",
+      "title": "wasmedge-runtime: bug: uninstaller not working when the `.bash_profile` is not a regular file.",
+      "description": "bug: uninstaller not working when the `.bash_profile` is not a regular file.. Community-reported issue.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "wasmedge-runtime",
+        "sandbox",
+        "runtime",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "wasmedge-runtime"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "sandbox"
     },
     {
       "path": "fixes/cncf-generated/weaviate/weaviate-3683-feature-request-add-not-operator-in-filter-to-support-not-like-etc.json",
