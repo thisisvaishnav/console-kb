@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-04-07T01:11:33.501Z",
-  "count": 1428,
+  "generatedAt": "2026-04-07T07:03:44.258Z",
+  "count": 1429,
   "missions": [
     {
       "path": "fixes/cncf-generated/alertmanager/alertmanager-2250-kubernetes-peers-ip-caching-causes-all-clusters-to-degrade-ove.json",
@@ -30884,6 +30884,33 @@
       "path": "fixes/cncf-generated/longhorn/longhorn-11635-improvement-introduce-concurrent-job-limit-for-snapshot-operation.json",
       "title": "longhorn: [IMPROVEMENT] Introduce Concurrent Job Limit for Snapshot Operations",
       "description": "[IMPROVEMENT] Introduce Concurrent Job Limit for Snapshot Operations. Community-requested feature.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "longhorn",
+        "incubating",
+        "storage",
+        "feature"
+      ],
+      "cncfProjects": [
+        "longhorn"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "incubating"
+    },
+    {
+      "path": "fixes/cncf-generated/longhorn/longhorn-11387-improvement-metrics-for-backups.json",
+      "title": "longhorn: [IMPROVEMENT] Metrics for backups",
+      "description": "[IMPROVEMENT] Metrics for backups. Requested by 5+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
